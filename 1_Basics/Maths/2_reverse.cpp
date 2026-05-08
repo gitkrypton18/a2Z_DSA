@@ -1,23 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution
 {
 public:
-    bool isPalindrome(int x)
+    // Function to reverse digits of a number
+    int reverseNumber(int n)
     {
-        int o = x;
-        if (x > INT_MAX / 10 || x < INT_MIN / 10)
+        // Variable to store reversed number
+        int revNum = 0;
+
+        // Loop until all digits are processed
+        while (n > 0)
         {
-            return 0;
+            // Get the last digit
+            int lastDigit = n % 10;
+
+            // Append it to the reversed number
+            revNum = revNum * 10 + lastDigit;
+
+            // Remove the last digit from n
+            n = n / 10;
         }
 
-        else
-        {
+        // Return the reversed number
+        return revNum;
+    }
+};
 
-            while (x >= 0)
-            {
-                int rev = 0;
-                rev = rev * 10 + x % 10;
-                x = x / 10;
-            }
-        }
-        if (rev == o)
-    };
+// Driver code
+int main()
+{
+    Solution obj;
+    int num = 12345;
+    cout << obj.reverseNumber(num) << endl; // Output: 54321
+    return 0;
+}
