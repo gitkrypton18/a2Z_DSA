@@ -38,11 +38,28 @@ int main(int argc, char const *argv[])
         cout << "Freq of " << number << " is : " << mpp[number] << endl;
     }
 
+    // Display all map contents in sorted order
     cout << "\nMap contents (key -> value) in sorted key order:" << endl;
     for (auto it : mpp)
     {
         cout << it.first << " -> " << it.second << endl;
     }
+
+    // Find and display the number with maximum frequency
+    int maxFreq = 0;
+    int mostOccurring = -1;
+
+    // Iterate through map to find the element with highest frequency
+    for (auto it : mpp)
+    {
+        if (it.second > maxFreq)
+        {
+            maxFreq = it.second;
+            mostOccurring = it.first;
+        }
+    }
+
+    cout << "\nMost occurring number is: " << mostOccurring << " with frequency: " << maxFreq << endl;
 
     return 0;
 }
