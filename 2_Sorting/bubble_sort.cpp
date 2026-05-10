@@ -15,22 +15,30 @@ int main()
     {
         cin >> arr[i];
     }
-
+    int didSwap = 0;
     // Outer loop: reduce the range of unsorted elements each pass
     for (int i = n - 1; i >= 1; i--)
     {
+
         // Inner loop: bubble the largest element of [0..i] to index i
         for (int j = 0; j <= i - 1; j++)
         {
             if (arr[j] > arr[j + 1])
+            {
                 swap(arr[j], arr[j + 1]);
+                didSwap += 1;
+            }
         }
+        if (didSwap == 0)
+            break;
     }
 
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << "\t";
     }
+    cout << endl
+         << didSwap;
 
     return 0;
 }
