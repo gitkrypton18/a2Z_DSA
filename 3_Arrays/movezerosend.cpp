@@ -35,13 +35,28 @@ void moveZeroes(vector<int> &nums)
         }
     }
 }
+
+void moveZeroesTwoPointer(vector<int> &nums)
+{
+    int i = 0, j = 0;
+    int n = nums.size();
+
+    while (j < n)
+    {
+        if (nums[j] != 0)
+        {
+            swap(nums[i], nums[j]);
+            i++;
+        }
+        j++;
+    }
+}
+
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
 
     vector<int> arr = {5, 0, 3, 0, 7, 0, 2};
-    moveZeroes(arr);
+    moveZeroesTwoPointer(arr);
 
     cout << "Array after moving zeroes: ";
     for (int num : arr)
