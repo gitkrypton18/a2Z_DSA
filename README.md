@@ -70,6 +70,7 @@ DSA Repository
 | [0048-rotate-image](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
 ## String
 |  |
 | ------- |
@@ -128,9 +129,14 @@ DSA Repository
 |  |
 | ------- |
 | [0136-single-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0136-single-number) |
+| [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
