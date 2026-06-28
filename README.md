@@ -2,17 +2,17 @@
 
 # 🎯 a2Z DSA — Striver's A2Z DSA Sheet Solutions
 
-[![Problems Solved](https://img.shields.io/badge/Solved-66%2F476-6366f1?style=for-the-badge&logo=leetcode&logoColor=white)](./dashboard/index.html)
-[![Easy](https://img.shields.io/badge/Easy-24-22c55e?style=for-the-badge)](./dashboard/index.html)
-[![Medium](https://img.shields.io/badge/Medium-29-f59e0b?style=for-the-badge)](./dashboard/index.html)
-[![Hard](https://img.shields.io/badge/Hard-9-ef4444?style=for-the-badge)](./dashboard/index.html)
+[![Problems Solved](https://img.shields.io/badge/Solved-66%2F476-6366f1?style=for-the-badge&logo=leetcode&logoColor=white)](https://gitkrypton18.github.io/a2Z_DSA/dashboard/index.html)
+[![Easy](https://img.shields.io/badge/Easy-24-22c55e?style=for-the-badge)](https://gitkrypton18.github.io/a2Z_DSA/dashboard/index.html)
+[![Medium](https://img.shields.io/badge/Medium-29-f59e0b?style=for-the-badge)](https://gitkrypton18.github.io/a2Z_DSA/dashboard/index.html)
+[![Hard](https://img.shields.io/badge/Hard-9-ef4444?style=for-the-badge)](https://gitkrypton18.github.io/a2Z_DSA/dashboard/index.html)
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
 [![Patterns](https://img.shields.io/badge/28_DSA_Patterns-8b5cf6?style=for-the-badge)](#-28-dsa-patterns)
 
 **A structured DSA learning journey following [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/).**
 Each solution includes C++ code, problem statements, and notes on approaches + complexity.
 
-[📊 **Open Dashboard**](./dashboard/index.html) &nbsp;•&nbsp; [🧩 **28 Patterns**](#-28-dsa-patterns) &nbsp;•&nbsp; [🔍 **Search Tool**](#-tools) &nbsp;•&nbsp; [📋 **Full Sheet**](./Strivers_A2Z_Sheet_with_Patterns.md)
+[📊 **Open Live Dashboard**](https://gitkrypton18.github.io/a2Z_DSA/dashboard/index.html) &nbsp;•&nbsp; [🧩 **28 Patterns**](#-28-dsa-patterns) &nbsp;•&nbsp; [🔍 **Search Tool**](#-tools) &nbsp;•&nbsp; [📋 **Full Sheet**](./Strivers_A2Z_Sheet_with_Patterns.md)
 
 </div>
 
