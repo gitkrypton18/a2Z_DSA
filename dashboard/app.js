@@ -289,16 +289,31 @@
   /* ─── Heatmap ───────────────────────────────────────── */
   function renderHeatmap() {
     const wrap = document.getElementById('heatmapWrap');
-    if (!D.commitDates || D.commitDates.length === 0) {
-      wrap.innerHTML = '<div style="padding:12px;color:var(--text-muted);font-size:0.8rem">No commit data available. Run sync to populate.</div>';
-      return;
-    }
-
+    
     // Build date → count map
     const dateCount = {};
-    D.commitDates.forEach(d => {
-      dateCount[d] = (dateCount[d] || 0) + 1;
-    });
+    
+    // Check if we have official LeetCode heatmap data first
+    if (D.meta && D.meta.leetcodeHeatmap && Object.keys(D.meta.leetcodeHeatmap).length > 0) {
+      for (const [timestamp, count] of Object.entries(D.meta.leetcodeHeatmap)) {
+        // LeetCode timestamps are in seconds
+        const d = new Date(parseInt(timestamp) * 1000);
+        // Format as YYYY-MM-DD
+        const year = d.getFullYear();
+        const month = String(d.getMonth() + 1).padStart(2, '0');
+        const day = String(d.getDate()).padStart(2, '0');
+        const key = `${year}-${month}-${day}`;
+        dateCount[key] = (dateCount[key] || 0) + count;
+      }
+    } else if (D.commitDates && D.commitDates.length > 0) {
+      // Fallback to local git commits
+      D.commitDates.forEach(d => {
+        dateCount[d] = (dateCount[d] || 0) + 1;
+      });
+    } else {
+      wrap.innerHTML = '<div style="padding:12px;color:var(--text-muted);font-size:0.8rem">No activity data available. Run leetcode_sync.py to populate.</div>';
+      return;
+    }
 
     // Build 52 weeks of data ending today
     const today = new Date();

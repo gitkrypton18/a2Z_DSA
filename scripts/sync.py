@@ -555,8 +555,17 @@ def main():
     csv_problems = parse_csv()
     print(f"  📖  Parsed CSV: {len(csv_problems)} problems")
 
-    # 2. Load stats for difficulty info
+    # 2. Load stats for difficulty info and heatmap
     stats_shas = load_stats_shas()
+    
+    # Load heatmap data if it exists
+    leetcode_heatmap = {}
+    if STATS_PATH.exists():
+        try:
+            st = json.loads(STATS_PATH.read_text(encoding='utf-8'))
+            leetcode_heatmap = st.get('leetcode_heatmap', {})
+        except:
+            pass
 
     # 3. Scan solution folders
     leetcode_folders = scan_leetcode_folders()
@@ -605,6 +614,7 @@ def main():
         'meta': {
             'lastSynced': datetime.now().isoformat(),
             'repoUrl': 'https://github.com/gitkrypton18/a2Z_DSA',
+            'leetcodeHeatmap': leetcode_heatmap,
         },
         'summary': {
             'total': len(csv_problems),
@@ -652,6 +662,7 @@ def main():
         },
         'patterns_active': active,
         'topics_covered':  sum(1 for t in topics if t['solved'] > 0),
+        'leetcode_heatmap': leetcode_heatmap,
     }
     STATS_PATH.write_text(json.dumps(enhanced, indent=2), encoding='utf-8')
     print(f"  ✅  Updated stats.json")

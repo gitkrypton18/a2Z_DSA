@@ -1,9 +1,9 @@
 {
   "leetcode": {
-    "easy": 24,
-    "medium": 29,
+    "easy": 25,
+    "medium": 34,
     "hard": 9,
-    "solved": 66,
+    "solved": 74,
     "total": 476,
     "shas": {
       "0001-two-sum": {
@@ -344,5 +344,6 @@
     }
   },
   "patterns_active": 12,
-  "topics_covered": 6
+  "topics_covered": 6,
+  "leetcode_heatmap": {}
 }
