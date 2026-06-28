@@ -45,6 +45,7 @@ DSA Repository
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0242-valid-anagram) |
 ## Binary Search
 |  |
 | ------- |
@@ -81,6 +82,7 @@ DSA Repository
 | [0014-longest-common-prefix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
 | ------- |
@@ -106,6 +108,7 @@ DSA Repository
 | [0088-merge-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0242-valid-anagram) |
 ## Matrix
 |  |
 | ------- |
