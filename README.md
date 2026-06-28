@@ -42,6 +42,7 @@ DSA Repository
 | [0540-single-element-in-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0704-binary-search) |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,6 +80,7 @@ DSA Repository
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0493-reverse-pairs](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0493-reverse-pairs) |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 ## Math
 |  |
 | ------- |
@@ -129,6 +131,7 @@ DSA Repository
 | [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 ## Matrix
 |  |
 | ------- |
@@ -188,10 +191,12 @@ DSA Repository
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -204,6 +209,7 @@ DSA Repository
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0493-reverse-pairs) |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 ## Ordered Set
 |  |
 | ------- |
@@ -216,4 +222,12 @@ DSA Repository
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0796-rotate-string) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
