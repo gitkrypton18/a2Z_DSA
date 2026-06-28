@@ -27,6 +27,7 @@ DSA Repository
 | [0118-pascals-triangle](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0136-single-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0136-single-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -105,4 +106,8 @@ DSA Repository
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0128-longest-consecutive-sequence) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
