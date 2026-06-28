@@ -100,6 +100,7 @@ DSA Repository
 | [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
 | [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
+| [1486-xor-operation-in-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1486-xor-operation-in-an-array) |
 ## String
 |  |
 | ------- |
@@ -173,6 +174,7 @@ DSA Repository
 | ------- |
 | [0136-single-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
+| [1486-xor-operation-in-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1486-xor-operation-in-an-array) |
 ## Counting
 |  |
 | ------- |
