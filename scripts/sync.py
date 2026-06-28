@@ -434,9 +434,10 @@ def classify_patterns(csv_problems):
 
 def compute_topics(csv_problems):
     """Compute topic-wise progress grouped by main topic."""
-    sub_stats = defaultdict(lambda: {'total': 0, 'solved': 0})
+    sub_stats = defaultdict(lambda: {'total': 0, 'solved': 0, 'problems': []})
     for p in csv_problems:
         sub_stats[p['topic']]['total'] += 1
+        sub_stats[p['topic']]['problems'].append(p)
         if p['solved']:
             sub_stats[p['topic']]['solved'] += 1
 
@@ -444,7 +445,7 @@ def compute_topics(csv_problems):
     for group_name, subtopics in TOPIC_GROUPS.items():
         group = {'name': group_name, 'total': 0, 'solved': 0, 'subtopics': []}
         for st in subtopics:
-            s = sub_stats.get(st, {'total': 0, 'solved': 0})
+            s = sub_stats.get(st, {'total': 0, 'solved': 0, 'problems': []})
             group['subtopics'].append({'name': st, **s})
             group['total']  += s['total']
             group['solved'] += s['solved']
@@ -483,6 +484,66 @@ def generate_data_js(data):
     content += ";\n"
 
     DATA_JS_PATH.write_text(content, encoding='utf-8')
+
+
+def update_readme(patterns, topics):
+    """Inject dynamically generated markdown into README.md."""
+    readme_path = REPO_ROOT / "README.md"
+    if not readme_path.exists():
+        return
+
+    content = readme_path.read_text(encoding='utf-8')
+
+    # 1. Generate Patterns Markdown
+    pat_md = []
+    for p in patterns:
+        pat_md.append(f"### {p['id']}. {p['emoji']} {p['name']}")
+        pat_md.append(f"> **When:** {p['whenToUse']}")
+        pat_md.append(">")
+        if p['solved'] > 0:
+            pat_md.append("> | Problem | Difficulty | Solution |")
+            pat_md.append("> |---------|------------|----------|")
+            for prob in p['problems']:
+                if prob['solved']:
+                    folder_link = f"[Code](./{prob['folder']})" if 'folder' in prob and prob['folder'] else "✅"
+                    pat_md.append(f"> | [{prob['name']}]({prob['link']}) | {prob['difficulty']} | {folder_link} |")
+        else:
+            pat_md.append("> *No problems solved yet for this pattern.*")
+        pat_md.append("\n")
+
+    pat_str = "\n".join(pat_md)
+    content = re.sub(r'<!-- PATTERNS_START -->.*?<!-- PATTERNS_END -->',
+                     f'<!-- PATTERNS_START -->\n{pat_str}\n<!-- PATTERNS_END -->',
+                     content, flags=re.DOTALL)
+
+    # 2. Generate Topics Markdown
+    top_md = []
+    top_md.append("| Topic | Solved | Total | Progress |")
+    top_md.append("|-------|--------|-------|----------|")
+    for t in topics:
+        pct = t['solved'] / max(t['total'], 1) * 100
+        bars = int(pct / 20)
+        progress = "🟩" * bars + "⬜" * (5 - bars)
+        status = "✅" if t['solved'] == t['total'] else ("⏳" if t['solved'] > 0 else "⬜")
+        top_md.append(f"| **{t['name']}** | {status} | {t['solved']}/{t['total']} | {progress} |")
+        
+        # Add a collapsible section for solved problems under this group if any
+        solved_probs = []
+        for st in t['subtopics']:
+            if st.get('problems'):
+                for p in st['problems']:
+                    if p['solved']:
+                        solved_probs.append(p)
+                        
+        if solved_probs:
+            top_md.append(f"| <details><summary>View {len(solved_probs)} Solved</summary><ul>" + "".join([f"<li>[{p['name']}]({p['link']}) - [Code](./{p['folder']})</li>" for p in solved_probs]) + "</ul></details> | | | |")
+
+    top_str = "\n".join(top_md)
+    content = re.sub(r'<!-- TOPICS_START -->.*?<!-- TOPICS_END -->',
+                     f'<!-- TOPICS_START -->\n{top_str}\n<!-- TOPICS_END -->',
+                     content, flags=re.DOTALL)
+
+    readme_path.write_text(content, encoding='utf-8')
 
 
 # ─── Main ─────────────────────────────────────────────────
@@ -594,6 +655,10 @@ def main():
     }
     STATS_PATH.write_text(json.dumps(enhanced, indent=2), encoding='utf-8')
     print(f"  ✅  Updated stats.json")
+
+    # 12. Update README
+    update_readme(patterns, topics)
+    print(f"  ✅  Updated README.md")
 
     print(f"\n  ✨  Sync complete! Open dashboard/index.html to view your progress.\n")
 

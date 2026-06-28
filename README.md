@@ -34,260 +34,284 @@ Patterns:   12/28 active
 
 ## 🧩 28 DSA Patterns
 
-The **28 most important DSA patterns** that cover every coding interview question. Each pattern below lists when to use it and key problems.
+The **28 most important DSA patterns** that cover every coding interview question.
 
+<!-- PATTERNS_START -->
 ### 1. 👉 Two Pointers
-> **When:** Sorted arrays, pair finding, palindromes, removing duplicates.
+> **When:** Sorted arrays, pair finding, palindromes, removing duplicates
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [3Sum](https://leetcode.com/problems/3sum/) | Medium |
-> | [4Sum](https://leetcode.com/problems/4sum/) | Medium |
-> | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy |
-> | [Move Zeros to End](https://leetcode.com/problems/move-zeroes/) | Easy |
-> | [Sort Colors (Dutch National Flag)](https://leetcode.com/problems/sort-colors/) | Medium |
-> | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium |
-> | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Check Palindrome](https://leetcode.com/problems/palindrome-number) | Easy | ✅ |
+> | [Remove duplicates from Sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | ✅ |
+> | [Move Zeros to End](https://leetcode.com/problems/move-zeroes) | Easy | ✅ |
+> | [Maximum Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | Easy | ✅ |
+> | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | ✅ |
+> | [Sort array of 0's 1's and 2's](https://leetcode.com/problems/sort-colors) | Medium | ✅ |
+> | [Rearrange array elements by sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | Medium | ✅ |
+> | [Next Permutation](https://leetcode.com/problems/next-permutation) | Medium | ✅ |
+> | [3 Sum](https://leetcode.com/problems/3sum) | Medium | ✅ |
+> | [4 Sum](https://leetcode.com/problems/4sum) | Medium | ✅ |
+> | [Merge two sorted arrays without extra space](https://leetcode.com/problems/merge-sorted-array) | Medium | ✅ |
+> | [Search in 2D matrix - II](https://leetcode.com/problems/search-a-2d-matrix-ii) | Hard | ✅ |
+> | [Rotate String](https://leetcode.com/problems/rotate-string) | Easy | ✅ |
+
 
 ### 2. 🪟 Sliding Window
-> **When:** Subarray/substring problems, max/min in a window, k-length sequences.
+> **When:** Subarray/substring problems, max/min in window, k-length
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Longest Substring Without Repeating Characters | Medium |
-> | Max Consecutive Ones III | Medium |
-> | Minimum Window Substring | Hard |
-> | Fruit Into Baskets | Medium |
-> | Longest Repeating Character Replacement | Hard |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Maximum Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | Easy | ✅ |
+
 
 ### 3. 🔍 Binary Search
-> **When:** Sorted data, search space reduction, answer-on-answer problems.
+> **When:** Sorted data, search space reduction, answer-on-answer
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy |
-> | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy |
-> | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium |
-> | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium |
-> | [Capacity to Ship Packages](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium |
-> | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | Easy |
-> | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | Hard |
-> | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) | Hard | ✅ |
+> | [Search X in sorted array](https://leetcode.com/problems/binary-search) | Easy | ✅ |
+> | [Search insert position](https://leetcode.com/problems/search-insert-position) | Easy | ✅ |
+> | [First and last occurrence](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Easy | ✅ |
+> | [Search in rotated sorted array-II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | Medium | ✅ |
+> | [Find minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | Easy | ✅ |
+> | [Single element in Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | Medium | ✅ |
+> | [Find peak element](https://leetcode.com/problems/find-peak-element) | Medium | ✅ |
+> | [Find square root of a number](https://leetcode.com/problems/sqrtx) | Medium | ✅ |
+> | [Minimum days to make M bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets) | Medium | ✅ |
+> | [Find the smallest divisor](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold) | Medium | ✅ |
+> | [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) | Medium | ✅ |
+> | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | Medium | ✅ |
+> | [Aggressive Cows](https://leetcode.com/problems/magnetic-force-between-two-balls) | Hard | ✅ |
+> | [Split array - largest sum](https://leetcode.com/problems/split-array-largest-sum) | Hard | ✅ |
+> | [Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | ✅ |
+> | [Search in a 2D matrix](https://leetcode.com/problems/search-a-2d-matrix) | Hard | ✅ |
+> | [Search in 2D matrix - II](https://leetcode.com/problems/search-a-2d-matrix-ii) | Hard | ✅ |
+> | [Find Peak Element - II](https://leetcode.com/problems/find-a-peak-element-ii) | Medium | ✅ |
+
 
 ### 4. ➕ Prefix Sum
-> **When:** Subarray sum queries, range sum operations.
+> **When:** Subarray sum queries, range operations
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium |
-> | Largest Subarray with Sum 0 | Medium |
-> | Count Subarrays with Given XOR K | Hard |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Count subarrays with given sum](https://leetcode.com/problems/subarray-sum-equals-k) | Medium | ✅ |
+
 
 ### 5. 🗂️ Hash Maps
-> **When:** Counting, grouping, finding duplicates, two-sum style lookups.
+> **When:** Counting, grouping, duplicates, two-sum style
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy |
-> | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium |
-> | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy |
-> | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy |
-> | [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium |
-> | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Find number that appears once (others twice)](https://leetcode.com/problems/single-number) | Easy | ✅ |
+> | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | ✅ |
+> | [Majority Element-I](https://leetcode.com/problems/majority-element) | Easy | ✅ |
+> | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | Medium | ✅ |
+> | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | Medium | ✅ |
+> | [Count subarrays with given sum](https://leetcode.com/problems/subarray-sum-equals-k) | Medium | ✅ |
+> | [Majority Element-II](https://leetcode.com/problems/majority-element-ii) | Hard | ✅ |
+> | [Find repeating and missing number](https://leetcode.com/problems/find-missing-and-repeated-values) | Hard | ✅ |
+> | [Isomorphic String](https://leetcode.com/problems/contains-duplicate) | Easy | ✅ |
+> | [Check if two strings are anagram](https://leetcode.com/problems/valid-anagram) | Easy | ✅ |
+> | [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | Easy | ✅ |
+> | [Roman to Integer](https://leetcode.com/problems/integer-to-roman) | Medium | ✅ |
+> | [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings) | Medium | ✅ |
+
 
 ### 6. 📚 Monotonic Stack
-> **When:** Next greater/smaller element, histogram problems, trapping rain water.
+> **When:** Next greater/smaller element, histogram, trapping rain water
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Next Greater Element | Medium |
-> | Trapping Rain Water | Hard |
-> | Largest Rectangle in Histogram | Hard |
-> | Sum of Subarray Minimums | Medium |
+> *No problems solved yet for this pattern.*
+
 
 ### 7. 🐢 Fast & Slow Pointers
-> **When:** Cycle detection, finding middle node, linked list intersection.
+> **When:** Cycle detection, finding middle node, linked list problems
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Middle of Linked List | Easy |
-> | Detect a Loop in LL | Medium |
-> | Find Starting Point in LL | Medium |
-> | Check if LL is Palindrome | Medium |
+> *No problems solved yet for this pattern.*
+
 
 ### 8. 🔄 In-place Reversal of LinkedList
-> **When:** Reverse full/partial linked list, k-group reversal.
+> **When:** Reverse full/partial linked list, k-group reversal
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Reverse a Linked List | Medium |
-> | Reverse LL in Group of Size K | Hard |
-> | Rotate a Linked List | Hard |
+> *No problems solved yet for this pattern.*
+
 
 ### 9. 📐 Merge Intervals
-> **When:** Overlapping ranges, scheduling, interval operations.
+> **When:** Overlapping ranges, scheduling, interval operations
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium |
-> | Insert Interval | Medium |
-> | Non-overlapping Intervals | Medium |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Merge Overlapping Subintervals](https://leetcode.com/problems/merge-intervals) | Medium | ✅ |
+
 
 ### 10. 📈 Kadane's Algorithm
-> **When:** Maximum subarray sum, contiguous sum optimization.
+> **When:** Maximum subarray, contiguous sum optimization
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium |
-> | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium |
-> | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Kadane's Algorithm](https://leetcode.com/problems/maximum-subarray) | Medium | ✅ |
+> | [Stock Buy and Sell](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Medium | ✅ |
+> | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | Hard | ✅ |
+
 
 ### 11. 🗳️ Boyer-Moore Voting
-> **When:** Finding elements appearing > n/2 or > n/3 times.
+> **When:** Elements appearing > n/2 or n/3 times
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy |
-> | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Majority Element-I](https://leetcode.com/problems/majority-element) | Easy | ✅ |
+> | [Majority Element-II](https://leetcode.com/problems/majority-element-ii) | Hard | ✅ |
+
 
 ### 12. 🇳🇱 Dutch National Flag
-> **When:** Sort 3 categories (0/1/2), three-way partitioning.
+> **When:** Sort 3 categories (0/1/2), three-way partition
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Sort array of 0's 1's and 2's](https://leetcode.com/problems/sort-colors) | Medium | ✅ |
+
 
 ### 13. ✂️ Divide & Conquer
-> **When:** Merge sort, quick sort, inversions counting.
+> **When:** Merge sort, quick sort, inversions counting
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Sort an Array (Merge Sort)](https://leetcode.com/problems/sort-an-array/) | Medium |
-> | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | Hard |
-> | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Merge Sort](https://leetcode.com/problems/sort-an-array) | Medium | ✅ |
+> | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) | Hard | ✅ |
+
 
 ### 14. 🔁 Recursion & Backtracking
-> **When:** Permutations, combinations, constraint satisfaction (N-Queens, Sudoku).
+> **When:** Permutations, combinations, constraint satisfaction (N-Queens, Sudoku)
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Combination Sum | Medium |
-> | Subsets I & II | Medium |
-> | N-Queens | Hard |
-> | Sudoku Solver | Hard |
-> | Palindrome Partitioning | Hard |
-> | Generate Parentheses | Medium |
+> *No problems solved yet for this pattern.*
+
 
 ### 15. 🔢 Bit Manipulation
-> **When:** XOR tricks, power of 2, single number, subsets via bitmask.
+> **When:** XOR tricks, power of 2, single number, subsets via bitmask
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Single Number](https://leetcode.com/problems/single-number/) | Easy |
-> | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy |
-> | [XOR Operation in Array](https://leetcode.com/problems/xor-operation-in-an-array/) | Easy |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Find number that appears once (others twice)](https://leetcode.com/problems/single-number) | Easy | ✅ |
+> | [Find repeating and missing number](https://leetcode.com/problems/find-missing-and-repeated-values) | Hard | ✅ |
+> | [Check if Number is Power of 2](https://leetcode.com/problems/power-of-two) | Easy | ✅ |
+> | [XOR of numbers in given range](https://leetcode.com/problems/xor-operation-in-an-array) | Medium | ✅ |
+
 
 ### 16. 🤑 Greedy
-> **When:** Scheduling, interval selection, optimal ordering.
+> **When:** Scheduling, interval selection, optimal ordering
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Assign Cookies | Easy |
-> | Jump Game I & II | Easy/Medium |
-> | Fractional Knapsack | Medium |
-> | Job Sequencing | Medium |
-> | Candy | Hard |
+> | Problem | Difficulty | Solution |
+> |---------|------------|----------|
+> | [Stock Buy and Sell](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Medium | ✅ |
+> | [Largest Odd Number in a String](https://leetcode.com/problems/largest-odd-number-in-string) | Easy | ✅ |
 
-### 17–20. 🏔️ Heap Patterns
-> **17. Kth / K-closest** — Top K elements, kth largest.
-> **18. Heap as Pointer** — Merge k sorted lists/arrays.
-> **19. Greedy + Heap** — Task scheduling, optimization.
-> **20. Two Heaps** — Find median in stream, sliding window median.
->
-> | Problem | Difficulty | Sub-Pattern |
-> |---------|-----------|-------------|
-> | Kth Largest Element | Medium | Kth |
-> | Merge K Sorted Lists | Hard | Pointer |
-> | Task Scheduler | Medium | Greedy+Heap |
-> | Find Median from Data Stream | Hard | Two Heaps |
-> | Top K Frequent Elements | Medium | Kth |
 
-### 21–25. 🌳 Tree Patterns
-> **21. Traversal** — Pre/In/Post/Level order.
-> **22. Mirror & Symmetry** — Invert tree, symmetric checks.
-> **23. Search / LCA** — BST operations, lowest common ancestor.
-> **24. Path Sum** — Root-to-leaf paths, max path sum.
-> **25. Construction** — Build from preorder+inorder, sorted array to BST.
+### 17. 🏔️ Heap: Kth / K-closest
+> **When:** Top K elements, kth largest, k closest points
 >
-> | Problem | Difficulty | Sub-Pattern |
-> |---------|-----------|-------------|
-> | Inorder/Preorder/Postorder Traversal | Easy | Traversal |
-> | Level Order / Zigzag Traversal | Medium | Traversal |
-> | Symmetric Binary Tree | Medium | Mirror |
-> | LCA of Binary Tree | Hard | Search |
-> | Maximum Path Sum | Medium | Path Sum |
-> | Construct BT from Preorder+Inorder | Hard | Construction |
+> *No problems solved yet for this pattern.*
+
+
+### 18. 👆 Heap: Heap as Pointer
+> **When:** Merge k sorted lists/arrays, external sort
+>
+> *No problems solved yet for this pattern.*
+
+
+### 19. 💰 Heap: Greedy + Heap
+> **When:** Task scheduling, resource allocation, IPO
+>
+> *No problems solved yet for this pattern.*
+
+
+### 20. ⚖️ Heap: Two Heaps
+> **When:** Find median in stream, sliding window median
+>
+> *No problems solved yet for this pattern.*
+
+
+### 21. 🌳 Tree: Traversal
+> **When:** Tree processing, serialization, level-based ops
+>
+> *No problems solved yet for this pattern.*
+
+
+### 22. 🪞 Tree: Mirror & Symmetry
+> **When:** Symmetric tree, invert tree, same tree checks
+>
+> *No problems solved yet for this pattern.*
+
+
+### 23. 🔎 Tree: Search / LCA
+> **When:** BST operations, LCA queries, kth smallest in BST
+>
+> *No problems solved yet for this pattern.*
+
+
+### 24. 🛤️ Tree: Path Sum
+> **When:** Path sum, root-to-leaf paths, max path sum
+>
+> *No problems solved yet for this pattern.*
+
+
+### 25. 🏗️ Tree: Construction
+> **When:** Construct from preorder+inorder, sorted array to BST
+>
+> *No problems solved yet for this pattern.*
+
 
 ### 26. 🕸️ Graphs: BFS / DFS
-> **When:** Connected components, islands, cycle detection, flood fill, topo sort.
+> **When:** Connected components, islands, cycle detection, flood fill
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Number of Islands | Medium |
-> | Rotten Oranges | Medium |
-> | Cycle Detection (Undirected/Directed) | Hard |
-> | Topological Sort | Hard |
-> | Bipartite Graph | Hard |
-> | Word Ladder | Hard |
+> *No problems solved yet for this pattern.*
+
 
 ### 27. 🗺️ Graphs: Shortest Path
-> **When:** Weighted graphs, minimum cost paths, network delays.
+> **When:** Weighted graphs, minimum cost paths, network delays
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | Dijkstra's Algorithm | Hard |
-> | Bellman-Ford Algorithm | Hard |
-> | Floyd Warshall | Hard |
-> | Network Delay Time | Medium |
-> | Cheapest Flights Within K Stops | Hard |
+> *No problems solved yet for this pattern.*
+
 
 ### 28. 🧮 DP (Dynamic Programming)
-> **When:** Optimization, counting, string matching, knapsack, LIS, LCS.
+> **When:** Optimization, counting, string matching, knapsack, LIS, LCS
 >
-> | Problem | Difficulty |
-> |---------|-----------|
-> | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy |
-> | Climbing Stairs | Medium |
-> | House Robber | Medium |
-> | 0/1 Knapsack | Medium |
-> | Longest Common Subsequence | Hard |
-> | Longest Increasing Subsequence | Medium |
-> | Edit Distance | Hard |
-> | Matrix Chain Multiplication | Hard |
+> *No problems solved yet for this pattern.*
+
+
+<!-- PATTERNS_END -->
 
 ---
 
 ## 📚 Topic-wise Progress
 
+<!-- TOPICS_START -->
 | Topic | Solved | Total | Progress |
 |-------|--------|-------|----------|
-| Learn the Basics | ✅ | 56 | 🟩🟩⬜⬜⬜ |
-| Sorting | ✅ | 7 | 🟩🟩🟩⬜⬜ |
-| Arrays (Easy + Medium + Hard) | ✅ | 42 | 🟩🟩🟩⬜⬜ |
-| Binary Search (1D + Answers + 2D) | ✅ | 32 | 🟩🟩⬜⬜⬜ |
-| Strings (Basic + Medium + Hard) | ✅ | 23 | 🟩⬜⬜⬜⬜ |
-| Linked Lists | ⬜ | 30 | ⬜⬜⬜⬜⬜ |
-| Recursion & Backtracking | ⬜ | 24 | ⬜⬜⬜⬜⬜ |
-| Bit Manipulation | ⬜ | 18 | ⬜⬜⬜⬜⬜ |
-| Stack & Queue | ⬜ | 30 | ⬜⬜⬜⬜⬜ |
-| Sliding Window | ⬜ | 12 | ⬜⬜⬜⬜⬜ |
-| Heaps | ⬜ | 15 | ⬜⬜⬜⬜⬜ |
-| Greedy | ⬜ | 16 | ⬜⬜⬜⬜⬜ |
-| Binary Trees | ⬜ | 38 | ⬜⬜⬜⬜⬜ |
-| BST | ⬜ | 16 | ⬜⬜⬜⬜⬜ |
-| Graphs | ⬜ | 53 | ⬜⬜⬜⬜⬜ |
-| Dynamic Programming | ⬜ | 55 | ⬜⬜⬜⬜⬜ |
-| Tries | ⬜ | 7 | ⬜⬜⬜⬜⬜ |
+| **Learn the Basics** | ⏳ | 5/56 | ⬜⬜⬜⬜⬜ |
+| <details><summary>View 5 Solved</summary><ul><li>[Reverse a number](https://leetcode.com/problems/reverse-integer) - [Code](./0007-reverse-integer)</li><li>[Check Palindrome](https://leetcode.com/problems/palindrome-number) - [Code](./0009-palindrome-number)</li><li>[Sum of all divisors](https://leetcode.com/problems/missing-number) - [Code](./0258-add-digits)</li><li>[N-th Fibonacci number](https://leetcode.com/problems/fibonacci-number) - [Code](./0509-fibonacci-number)</li><li>[Check if array is sorted](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) - [Code](./1752-check-if-array-is-sorted-and-rotated)</li></ul></details> | | | |
+| **Sorting** | ⏳ | 1/7 | ⬜⬜⬜⬜⬜ |
+| <details><summary>View 1 Solved</summary><ul><li>[Merge Sort](https://leetcode.com/problems/sort-an-array) - [Code](./0912-sort-an-array)</li></ul></details> | | | |
+| **Arrays** | ⏳ | 26/40 | 🟩🟩🟩⬜⬜ |
+| <details><summary>View 26 Solved</summary><ul><li>[Remove duplicates from Sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) - [Code](./0026-remove-duplicates-from-sorted-array)</li><li>[Left Rotate Array by K Places](https://leetcode.com/problems/rotate-array) - [Code](./0189-rotate-array)</li><li>[Move Zeros to End](https://leetcode.com/problems/move-zeroes) - [Code](./0283-move-zeroes)</li><li>[Maximum Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) - [Code](./0485-max-consecutive-ones)</li><li>[Find number that appears once (others twice)](https://leetcode.com/problems/single-number) - [Code](./0136-single-number)</li><li>[Two Sum](https://leetcode.com/problems/two-sum) - [Code](./0001-two-sum)</li><li>[Sort array of 0's 1's and 2's](https://leetcode.com/problems/sort-colors) - [Code](./0075-sort-colors)</li><li>[Majority Element-I](https://leetcode.com/problems/majority-element) - [Code](./0169-majority-element)</li><li>[Kadane's Algorithm](https://leetcode.com/problems/maximum-subarray) - [Code](./0053-maximum-subarray)</li><li>[Stock Buy and Sell](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) - [Code](./0121-best-time-to-buy-and-sell-stock)</li><li>[Rearrange array elements by sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) - [Code](./2149-rearrange-array-elements-by-sign)</li><li>[Next Permutation](https://leetcode.com/problems/next-permutation) - [Code](./0031-next-permutation)</li><li>[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) - [Code](./0128-longest-consecutive-sequence)</li><li>[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) - [Code](./0073-set-matrix-zeroes)</li><li>[Rotate matrix by 90 degrees](https://leetcode.com/problems/rotate-image) - [Code](./0048-rotate-image)</li><li>[Print matrix in spiral manner](https://leetcode.com/problems/spiral-matrix) - [Code](./0054-spiral-matrix)</li><li>[Count subarrays with given sum](https://leetcode.com/problems/subarray-sum-equals-k) - [Code](./0560-subarray-sum-equals-k)</li><li>[Pascal's Triangle I](https://leetcode.com/problems/pascals-triangle) - [Code](./0118-pascals-triangle)</li><li>[Majority Element-II](https://leetcode.com/problems/majority-element-ii) - [Code](./0229-majority-element-ii)</li><li>[3 Sum](https://leetcode.com/problems/3sum) - [Code](./0015-3sum)</li><li>[4 Sum](https://leetcode.com/problems/4sum) - [Code](./0018-4sum)</li><li>[Merge Overlapping Subintervals](https://leetcode.com/problems/merge-intervals) - [Code](./0056-merge-intervals)</li><li>[Merge two sorted arrays without extra space](https://leetcode.com/problems/merge-sorted-array) - [Code](./0088-merge-sorted-array)</li><li>[Find repeating and missing number](https://leetcode.com/problems/find-missing-and-repeated-values) - [Code](./2965-find-missing-and-repeated-values)</li><li>[Reverse Pairs](https://leetcode.com/problems/reverse-pairs) - [Code](./0493-reverse-pairs)</li><li>[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) - [Code](./0152-maximum-product-subarray)</li></ul></details> | | | |
+| **Binary Search** | ⏳ | 18/32 | 🟩🟩⬜⬜⬜ |
+| <details><summary>View 18 Solved</summary><ul><li>[Search X in sorted array](https://leetcode.com/problems/binary-search) - [Code](./0704-binary-search)</li><li>[Search insert position](https://leetcode.com/problems/search-insert-position) - [Code](./0035-search-insert-position)</li><li>[First and last occurrence](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) - [Code](./0034-find-first-and-last-position-of-element-in-sorted-array)</li><li>[Search in rotated sorted array-II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) - [Code](./0081-search-in-rotated-sorted-array-ii)</li><li>[Find minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) - [Code](./0153-find-minimum-in-rotated-sorted-array)</li><li>[Single element in Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) - [Code](./0540-single-element-in-a-sorted-array)</li><li>[Find peak element](https://leetcode.com/problems/find-peak-element) - [Code](./0162-find-peak-element)</li><li>[Find square root of a number](https://leetcode.com/problems/sqrtx) - [Code](./0069-sqrtx)</li><li>[Minimum days to make M bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets) - [Code](./1482-minimum-number-of-days-to-make-m-bouquets)</li><li>[Find the smallest divisor](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold) - [Code](./1283-find-the-smallest-divisor-given-a-threshold)</li><li>[Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) - [Code](./1011-capacity-to-ship-packages-within-d-days)</li><li>[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) - [Code](./1539-kth-missing-positive-number)</li><li>[Aggressive Cows](https://leetcode.com/problems/magnetic-force-between-two-balls) - [Code](./1552-magnetic-force-between-two-balls)</li><li>[Split array - largest sum](https://leetcode.com/problems/split-array-largest-sum) - [Code](./0410-split-array-largest-sum)</li><li>[Median of 2 sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) - [Code](./0004-median-of-two-sorted-arrays)</li><li>[Search in a 2D matrix](https://leetcode.com/problems/search-a-2d-matrix) - [Code](./0074-search-a-2d-matrix)</li><li>[Search in 2D matrix - II](https://leetcode.com/problems/search-a-2d-matrix-ii) - [Code](./0240-search-a-2d-matrix-ii)</li><li>[Find Peak Element - II](https://leetcode.com/problems/find-a-peak-element-ii) - [Code](./1901-find-a-peak-element-ii)</li></ul></details> | | | |
+| **Strings** | ⏳ | 10/24 | 🟩🟩⬜⬜⬜ |
+| <details><summary>View 10 Solved</summary><ul><li>[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses) - [Code](./1021-remove-outermost-parentheses)</li><li>[Largest Odd Number in a String](https://leetcode.com/problems/largest-odd-number-in-string) - [Code](./1903-largest-odd-number-in-string)</li><li>[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) - [Code](./0014-longest-common-prefix)</li><li>[Isomorphic String](https://leetcode.com/problems/contains-duplicate) - [Code](./0205-isomorphic-strings)</li><li>[Rotate String](https://leetcode.com/problems/rotate-string) - [Code](./0796-rotate-string)</li><li>[Check if two strings are anagram](https://leetcode.com/problems/valid-anagram) - [Code](./0242-valid-anagram)</li><li>[Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency) - [Code](./0451-sort-characters-by-frequency)</li><li>[Maximum Nesting Depth of Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses) - [Code](./1614-maximum-nesting-depth-of-the-parentheses)</li><li>[Roman to Integer](https://leetcode.com/problems/integer-to-roman) - [Code](./0012-integer-to-roman)</li><li>[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings) - [Code](./1781-sum-of-beauty-of-all-substrings)</li></ul></details> | | | |
+| **Linked Lists** | ⬜ | 0/31 | ⬜⬜⬜⬜⬜ |
+| **Recursion** | ⬜ | 0/25 | ⬜⬜⬜⬜⬜ |
+| **Bit Manipulation** | ⏳ | 2/18 | ⬜⬜⬜⬜⬜ |
+| <details><summary>View 2 Solved</summary><ul><li>[Check if Number is Power of 2](https://leetcode.com/problems/power-of-two) - [Code](./0231-power-of-two)</li><li>[XOR of numbers in given range](https://leetcode.com/problems/xor-operation-in-an-array) - [Code](./1486-xor-operation-in-an-array)</li></ul></details> | | | |
+| **Stack & Queue** | ⬜ | 0/30 | ⬜⬜⬜⬜⬜ |
+| **Sliding Window** | ⬜ | 0/12 | ⬜⬜⬜⬜⬜ |
+| **Heaps** | ⬜ | 0/17 | ⬜⬜⬜⬜⬜ |
+| **Greedy** | ⬜ | 0/15 | ⬜⬜⬜⬜⬜ |
+| **Binary Trees** | ⬜ | 0/38 | ⬜⬜⬜⬜⬜ |
+| **BST** | ⬜ | 0/16 | ⬜⬜⬜⬜⬜ |
+| **Graphs** | ⬜ | 0/53 | ⬜⬜⬜⬜⬜ |
+| **Dynamic Programming** | ⬜ | 0/55 | ⬜⬜⬜⬜⬜ |
+| **Tries** | ⬜ | 0/7 | ⬜⬜⬜⬜⬜ |
+<!-- TOPICS_END -->
 
 > 📊 For detailed, live progress with interactive charts → [**Open Dashboard**](./dashboard/index.html)
 
