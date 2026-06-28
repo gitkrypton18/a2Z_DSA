@@ -1,0 +1,477 @@
+Topic,Problem,Difficulty,Pattern
+Learn the Basics,User Input / Output,Easy,Basic / Brute Force
+Learn the Basics,Data Types,Easy,Basic / Brute Force
+Learn the Basics,If Else statements,Easy,Basic / Brute Force
+Learn the Basics,Switch Statement,Easy,Basic / Brute Force
+Learn the Basics,"What are arrays, strings etc",Easy,Basic / Brute Force
+Learn the Basics,For loops,Easy,Basic / Brute Force
+Learn the Basics,While loops,Easy,Basic / Brute Force
+Learn the Basics,Functions / Pass by reference and value,Easy,Basic / Brute Force
+Learn the Basics,Counting frequencies of array elements,Easy,Basic / Brute Force / Hash Maps
+Learn the Basics,Hashing Theory,Easy,Basic / Brute Force / Hash Maps
+Learn the Basics,Counting frequencies by hashing,Easy,Basic / Brute Force / Hash Maps
+Learn the Basics,Find highest / lowest frequency element,Easy,Basic / Brute Force / Hash Maps
+Learn the Basics,Patterns - 1,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 2,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 3,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 4,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 5,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 6,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 7,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 8,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 9,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 10,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 11,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 12,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 13,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 14,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 15,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 16,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 17,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 18,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 19,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 20,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 21,Easy,Basic / Brute Force
+Learn the Basics,Patterns - 22,Easy,Basic / Brute Force
+Learn the Basics,Reverse a number,Easy,Basic / Brute Force / Math
+Learn the Basics,Check Palindrome,Easy,Basic / Brute Force / Two Pointers
+Learn the Basics,Check Armstrong,Easy,Basic / Brute Force / Math
+Learn the Basics,Print all divisors,Easy,Basic / Brute Force / Math
+Learn the Basics,Check for prime,Easy,Basic / Brute Force / Math
+Learn the Basics,GCD or HCF,Easy,Basic / Brute Force / Math
+Learn the Basics,LCM And GCD,Easy,Basic / Brute Force / Math
+Learn the Basics,Check if number is armstrong,Easy,Basic / Brute Force / Math
+Learn the Basics,Sum of all divisors,Easy,Basic / Brute Force / Math
+Learn the Basics,Check Perfect Number,Easy,Basic / Brute Force / Math
+Learn the Basics,Check Prime,Easy,Basic / Brute Force / Math
+Learn the Basics,Prime Factors,Easy,Basic / Brute Force / Math
+Learn the Basics,Power of a number,Easy,Basic / Brute Force / Math
+Learn the Basics,Sieve of Eratosthenes,Easy,Basic / Brute Force / Math
+Learn the Basics,Newton-Raphson Method,Easy,Basic / Brute Force / Math
+Learn the Basics,Sum of N numbers,Easy,Basic / Brute Force / Math
+Learn the Basics,N-th Fibonacci number,Easy,Basic / Brute Force / Math / Recursion
+Learn the Basics,Factorial of a number,Easy,Basic / Brute Force / Math / Recursion
+Learn the Basics,Reverse an array,Easy,Basic / Brute Force / Two Pointers
+Learn the Basics,Check if array is sorted,Easy,Basic / Brute Force
+Learn the Basics,Sum of array elements,Easy,Basic / Brute Force
+Learn the Basics,Average of array elements,Easy,Basic / Brute Force
+Sorting-I,Selection Sort,Easy,Basic / Brute Force
+Sorting-I,Bubble Sort,Easy,Basic / Brute Force
+Sorting-I,Insertion Sort,Easy,Basic / Brute Force
+Sorting-II,Merge Sort,Medium,Divide & Conquer / Recursion
+Sorting-II,Recursive Bubble Sort,Easy,Recursion and Backtracking
+Sorting-II,Recursive Insertion Sort,Easy,Recursion and Backtracking
+Sorting-II,Quick Sort,Easy,Divide & Conquer / Recursion
+Arrays - Easy,Largest Element,Easy,Basic / Brute Force
+Arrays - Easy,Second Largest Element,Easy,Basic / Brute Force
+Arrays - Easy,Check if Array is Sorted,Easy,Basic / Brute Force
+Arrays - Easy,Remove duplicates from Sorted array,Easy,Two Pointers
+Arrays - Easy,Left Rotate Array by One,Easy,Basic / Brute Force
+Arrays - Easy,Left Rotate Array by K Places,Easy,Basic / Brute Force
+Arrays - Easy,Move Zeros to End,Easy,Two Pointers
+Arrays - Easy,Linear Search,Easy,Basic / Brute Force
+Arrays - Easy,Union of two sorted arrays,Easy,Two Pointers
+Arrays - Easy,Find missing number,Easy,Hash Maps / Math
+Arrays - Easy,Maximum Consecutive Ones,Easy,Sliding Window / Two Pointers
+Arrays - Easy,Find number that appears once (others twice),Easy,Hash Maps / Bit Manipulation
+Arrays - Easy,Longest subarray with sum K (positives),Medium,Sliding Window / Two Pointers
+Arrays - Easy,Longest subarray with sum K,Medium,PREFIX SUM + Hash Maps
+Arrays - Medium,Two Sum,Easy,Hash Maps / Two Pointers
+Arrays - Medium,Sort array of 0's 1's and 2's,Medium,Two Pointers / Dutch National Flag
+Arrays - Medium,Majority Element-I,Easy,Hash Maps / Boyer-Moore
+Arrays - Medium,Kadane's Algorithm,Medium,Kadane Pattern
+Arrays - Medium,Print subarray with max subarray sum,Medium,Kadane Pattern
+Arrays - Medium,Stock Buy and Sell,Medium,Greedy / Kadane Pattern
+Arrays - Medium,Rearrange array elements by sign,Medium,Two Pointers
+Arrays - Medium,Next Permutation,Medium,Two Pointers / In-place
+Arrays - Medium,Leaders in an Array,Medium,Basic / Brute Force / Stack
+Arrays - Medium,Longest Consecutive Sequence,Medium,Hash Maps
+Arrays - Medium,Set Matrix Zeroes,Medium,In-place / Hash Maps
+Arrays - Medium,Rotate matrix by 90 degrees,Medium,In-place / Transpose
+Arrays - Medium,Print matrix in spiral manner,Medium,Simulation / Basic
+Arrays - Medium,Count subarrays with given sum,Medium,PREFIX SUM + Hash Maps
+Arrays - Hard,Pascal's Triangle I,Easy,Basic / Math / DP
+Arrays - Hard,Majority Element-II,Hard,Hash Maps / Boyer-Moore
+Arrays - Hard,3 Sum,Medium,Two Pointers
+Arrays - Hard,4 Sum,Medium,Two Pointers
+Arrays - Hard,Largest Subarray with Sum 0,Medium,PREFIX SUM + Hash Maps
+Arrays - Hard,Count subarrays with given xor K,Hard,PREFIX SUM + Hash Maps
+Arrays - Hard,Merge Overlapping Subintervals,Medium,Merge Intervals
+Arrays - Hard,Merge two sorted arrays without extra space,Medium,Two Pointers / Gap Method
+Arrays - Hard,Find repeating and missing number,Hard,Hash Maps / Math / Bit Manipulation
+Arrays - Hard,Count Inversions,Hard,Divide & Conquer / Merge Sort
+Arrays - Hard,Reverse Pairs,Hard,Divide & Conquer / Merge Sort / Binary Search
+Arrays - Hard,Maximum Product Subarray,Hard,Kadane Pattern / DP
+Binary Search - 1D,Search X in sorted array,Easy,Binary Search
+Binary Search - 1D,Lower Bound,Easy,Binary Search
+Binary Search - 1D,Upper Bound,Easy,Binary Search
+Binary Search - 1D,Search insert position,Easy,Binary Search
+Binary Search - 1D,Floor and Ceil in Sorted Array,Easy,Binary Search
+Binary Search - 1D,First and last occurrence,Easy,Binary Search
+Binary Search - 1D,Count Occurrences in Sorted Array,Easy,Binary Search
+Binary Search - 1D,Search in rotated sorted array-I,Medium,Binary Search
+Binary Search - 1D,Search in rotated sorted array-II,Medium,Binary Search
+Binary Search - 1D,Find minimum in Rotated Sorted Array,Easy,Binary Search
+Binary Search - 1D,Find out how many times array is rotated,Easy,Binary Search
+Binary Search - 1D,Single element in Sorted Array,Medium,Binary Search
+Binary Search - 1D,Find peak element,Medium,Binary Search
+Binary Search - Answers,Find square root of a number,Medium,Binary Search
+Binary Search - Answers,Find Nth root of a number,Medium,Binary Search
+Binary Search - Answers,Koko eating bananas,Medium,Binary Search
+Binary Search - Answers,Minimum days to make M bouquets,Medium,Binary Search
+Binary Search - Answers,Find the smallest divisor,Medium,Binary Search
+Binary Search - Answers,Capacity to Ship Packages Within D Days,Medium,Binary Search
+Binary Search - Answers,Kth Missing Positive Number,Medium,Binary Search
+Binary Search - Answers,Aggressive Cows,Hard,Binary Search
+Binary Search - Answers,Book Allocation Problem,Hard,Binary Search
+Binary Search - Answers,Split array - largest sum,Hard,Binary Search
+Binary Search - Answers,Painter's Partition,Medium,Binary Search
+Binary Search - Answers,Minimize Max Distance to Gas Station,Hard,Binary Search
+Binary Search - Answers,Median of 2 sorted arrays,Hard,Binary Search
+Binary Search - Answers,Kth element of 2 sorted arrays,Medium,Binary Search
+Binary Search - 2D,Find row with maximum 1's,Easy,Binary Search
+Binary Search - 2D,Search in a 2D matrix,Hard,Binary Search
+Binary Search - 2D,Search in 2D matrix - II,Hard,Binary Search / Two Pointers
+Binary Search - 2D,Find Peak Element - II,Medium,Binary Search
+Binary Search - 2D,Matrix Median,Hard,Binary Search
+Strings - Basic,Remove Outermost Parentheses,Medium,Stack / Basic
+Strings - Basic,Reverse words in a string / Palindrome Check,Medium,Two Pointers / In-place
+Strings - Basic,Largest Odd Number in a String,Easy,Greedy / Basic
+Strings - Basic,Longest Common Prefix,Easy,Basic / Brute Force
+Strings - Basic,Isomorphic String,Easy,Hash Maps
+Strings - Basic,Rotate String,Easy,Two Pointers / String Matching
+Strings - Basic,Check if two strings are anagram,Easy,Hash Maps / Sorting
+Strings - Medium,Sort Characters by Frequency,Easy,Hash Maps / Heap
+Strings - Medium,Maximum Nesting Depth of Parentheses,Medium,Stack / Basic
+Strings - Medium,Roman to Integer,Medium,Hash Maps / Basic
+Strings - Medium,String to Integer (atoi),Medium,Basic / Math
+Strings - Medium,Count Number of Substrings,Easy,Sliding Window / Two Pointers
+Strings - Medium,Longest Palindromic Substring,Medium,Two Pointers / Expand Around Center / DP
+Strings - Medium,Sum of Beauty of All Substrings,Medium,Hash Maps / Brute Force
+Strings - Medium,Reverse every word in a string,Medium,Two Pointers / In-place
+Linked List - Singly,Introduction to Singly LinkedList,Easy,Basic
+Linked List - Singly,Insertion at head,Easy,Basic
+Linked List - Singly,Deletion of head,Easy,Basic
+Linked List - Singly,Find length of Linked List,Easy,Basic
+Linked List - Singly,Search in Linked List,Medium,Basic
+Linked List - Doubly,Introduction to Doubly LL,Easy,Basic
+Linked List - Doubly,Insert node before head in DLL,Easy,Basic
+Linked List - Doubly,Delete head of DLL,Easy,Basic
+Linked List - Doubly,Reverse a Doubly Linked List,Medium,In-place Reversal of a LinkedList
+Linked List - Medium,Middle of LinkedList [TortoiseHare],easy,Fast & Slow Pointers
+Linked List - Medium,Reverse a LinkedList [Iterative],Medium,In-place Reversal of a LinkedList
+Linked List - Medium,Reverse a LL,Medium,In-place Reversal of a LinkedList
+Linked List - Medium,Detect a loop in LL,Medium,Fast & Slow Pointers
+Linked List - Medium,Find starting point in LL,Medium,Fast & Slow Pointers
+Linked List - Medium,Length of loop in LL,Medium,Fast & Slow Pointers
+Linked List - Medium,Check if LL is palindrome,Medium,Fast & Slow Pointers / Stack
+Linked List - Medium,Segregate odd and even nodes,Medium,Two Pointers / In-place
+Linked List - Medium,Remove Nth node from back,Medium,Fast & Slow Pointers / Two Pointers
+Linked List - Medium,Delete middle node,Medium,Fast & Slow Pointers
+Linked List - Medium,Sort LL,Hard,Merge Sort / Recursion
+Linked List - Medium,Sort LL of 0's 1's and 2's,Medium,Two Pointers / In-place
+Linked List - Medium,Find intersection point of Y LL,Medium,Two Pointers / Hash Maps
+Linked List - Medium,Add one to number represented by LL,Medium,Stack / Recursion
+Linked List - Medium,Add two numbers in Linked List,Medium,Two Pointers / Basic
+Linked List - DLL Medium,Delete all occurrences of key in DLL,Hard,Two Pointers / In-place
+Linked List - DLL Medium,Find Pairs with Given Sum in DLL,Medium,Two Pointers
+Linked List - DLL Medium,Remove duplicates from sorted DLL,hard,Two Pointers / In-place
+Linked List - Hard,Reverse LL in group of size K,Hard,In-place Reversal of a LinkedList
+Linked List - Hard,Rotate a LL,Hard,In-place Reversal of a LinkedList / Two Pointers
+Linked List - Hard,Flattening of LL,Hard,Merge Sort / Recursion / Heap
+Linked List - Hard,Clone LL with random and next pointer,Hard,Hash Maps / Two Pointers
+Recursion - Basic,Recursive Implementation of atoi(),Medium,Recursion and Backtracking
+Recursion - Basic,"Pow(x, n)",Easy,Recursion and Backtracking / Divide & Conquer
+Recursion - Basic,Count Good Numbers,Medium,Recursion and Backtracking / Math
+Recursion - Basic,Sort a stack using recursion,Medium,Recursion and Backtracking / Stack
+Recursion - Basic,Reverse a Stack,Medium,Recursion and Backtracking / Stack
+Recursion - Subsequences,Generate Binary Strings Without Consecutive 1s,Medium,Recursion and Backtracking
+Recursion - Subsequences,Generate Parentheses,Medium,Recursion and Backtracking
+Recursion - Subsequences,Power Set,Medium,Recursion and Backtracking
+Recursion - Subsequences,Learn All Patterns of Subsequences,Easy,Recursion and Backtracking
+Recursion - Subsequences,Count all subsequences with sum K,Easy,Recursion and Backtracking
+Recursion - Subsequences,Check if subsequence with sum K exists,Easy,Recursion and Backtracking
+Recursion - Subsequences,Combination Sum,Medium,Recursion and Backtracking
+Recursion - Subsequences,Combination Sum II,Medium,Recursion and Backtracking
+Recursion - Subsequences,Subsets I,Medium,Recursion and Backtracking
+Recursion - Subsequences,Subsets II,Medium,Recursion and Backtracking
+Recursion - Subsequences,Combination Sum III,Medium,Recursion and Backtracking
+Recursion - Subsequences,Letter Combinations of a Phone Number,Hard,Recursion and Backtracking
+Recursion - Hard,Palindrome partitioning,Hard,Recursion and Backtracking
+Recursion - Hard,Word Search,Hard,Recursion and Backtracking
+Recursion - Hard,N Queen,Hard,Recursion and Backtracking
+Recursion - Hard,Rat in a Maze,Hard,Recursion and Backtracking
+Recursion - Hard,Word Break,Medium,Recursion and Backtracking / DP
+Recursion - Hard,M Coloring Problem,Hard,Recursion and Backtracking
+Recursion - Hard,Sudoku Solver,Hard,Recursion and Backtracking
+Recursion - Hard,Expression Add Operators,Hard,Recursion and Backtracking
+Bit Manipulation - Basic,Introduction to Bits and Tricks,Easy,Basic / Bit Manipulation
+Bit Manipulation - Basic,Check if i-th bit is Set,Easy,Basic / Bit Manipulation
+Bit Manipulation - Basic,Check if Number is Odd,Easy,Basic / Bit Manipulation
+Bit Manipulation - Basic,Check if Number is Power of 2,Easy,Basic / Bit Manipulation
+Bit Manipulation - Basic,Count Number of Set Bits,Easy,Basic / Bit Manipulation
+Bit Manipulation - Basic,Set/Unset rightmost unset bit,Easy,Basic / Bit Manipulation
+Bit Manipulation - Basic,Swap Two Numbers,Easy,Basic / Bit Manipulation
+Bit Manipulation - Basic,Divide two numbers without * and /,Medium,Basic / Bit Manipulation / Math
+Bit Manipulation - Interview,Minimum Bit Flips to Convert Number,Medium,Bit Manipulation
+Bit Manipulation - Interview,Single Number - I,Medium,Hash Maps / Bit Manipulation
+Bit Manipulation - Interview,Power Set Bit Manipulation,Medium,Bit Manipulation / Recursion
+Bit Manipulation - Interview,XOR of numbers in given range,Medium,Bit Manipulation / Math
+Bit Manipulation - Interview,Single Number - III,Medium,Hash Maps / Bit Manipulation
+Bit Manipulation - Advanced,Print Prime Factors,Hard,Math / Basic
+Bit Manipulation - Advanced,Divisors of a Number,Easy,Math / Basic
+Bit Manipulation - Advanced,Count primes in range L to R,Hard,Math / Sieve / Basic
+Bit Manipulation - Advanced,Prime factorisation,Hard,Math / Basic
+Bit Manipulation - Advanced,"Pow(x,n)",Easy,Math / Divide & Conquer
+Stack & Queue - Learning,Implement Stack using Arrays,Easy,Stack / Basic
+Stack & Queue - Learning,Implement Queue using Arrays,Easy,Basic
+Stack & Queue - Learning,Implement Stack using Queue,Easy,Stack / Queue
+Stack & Queue - Learning,Implement Queue using Stack,Easy,Stack / Queue
+Stack & Queue - Learning,Implement stack using Linkedlist,Easy,Stack / Basic
+Stack & Queue - Learning,Implement queue using Linkedlist,Easy,Basic
+Stack & Queue - Learning,Balanced Parenthesis,Easy,Stack
+Stack & Queue - Learning,Implement Min Stack,Hard,Stack / Two Stacks
+Stack & Queue - Conversion,Infix to Postfix,Medium,Stack
+Stack & Queue - Conversion,Prefix to Infix,Medium,Stack
+Stack & Queue - Conversion,Prefix to Postfix,Medium,Stack
+Stack & Queue - Conversion,Postfix to Prefix,Medium,Stack
+Stack & Queue - Conversion,Postfix to Infix,Easy,Stack
+Stack & Queue - Conversion,Infix to Prefix,Medium,Stack
+Stack & Queue - Monotonic,Next Greater Element,Medium,Stack / Monotonic Stack
+Stack & Queue - Monotonic,Next Greater Element - 2,Medium,Stack / Monotonic Stack
+Stack & Queue - Monotonic,Next Smaller Element,Medium,Stack / Monotonic Stack
+Stack & Queue - Monotonic,Number of Greater Elements to Right,Easy,Stack / Monotonic Stack
+Stack & Queue - Monotonic,Trapping Rainwater,Hard,Stack / Two Pointers / DP
+Stack & Queue - Monotonic,Sum of Subarray Minimums,Medium,Stack / Monotonic Stack
+Stack & Queue - Monotonic,Asteroid Collision,Medium,Stack
+Stack & Queue - Monotonic,Sum of Subarray Ranges,Medium,Stack / Monotonic Stack
+Stack & Queue - Monotonic,Remove K Digits,Medium,Stack / Greedy / Monotonic Stack
+Stack & Queue - Monotonic,Largest rectangle in histogram,Hard,Stack / Monotonic Stack
+Stack & Queue - Monotonic,Maximum Rectangles,Hard,Stack / Monotonic Stack / DP
+Stack & Queue - Implementation,Sliding Window Maximum,Hard,Deque / Monotonic Queue
+Stack & Queue - Implementation,Stock span problem,Hard,Stack / Monotonic Stack
+Stack & Queue - Implementation,Celebrity Problem,Hard,Stack / Two Pointers
+Stack & Queue - Implementation,LRU Cache,Medium,Hash Maps / Linked List
+Stack & Queue - Implementation,LFU Cache,Hard,Hash Maps / Linked List / Heap
+Sliding Window - Medium,Longest Substring Without Repeating Characters,Medium,Sliding Window / Hash Maps
+Sliding Window - Medium,Max Consecutive Ones III,Medium,Sliding Window / Two Pointers
+Sliding Window - Medium,Fruit Into Baskets,Medium,Sliding Window / Hash Maps
+Sliding Window - Medium,Longest Repeating Character Replacement,Hard,Sliding Window / Hash Maps
+Sliding Window - Medium,Binary Subarrays With Sum,Hard,Sliding Window / PREFIX SUM
+Sliding Window - Medium,Count number of Nice subarrays,Hard,Sliding Window / PREFIX SUM
+Sliding Window - Medium,Number of Substrings Containing All Three Characters,Hard,Sliding Window / Hash Maps
+Sliding Window - Medium,Maximum Points from Cards,Medium,Sliding Window / PREFIX SUM
+Sliding Window - Hard,Longest Substring With At Most K Distinct,Hard,Sliding Window / Hash Maps
+Sliding Window - Hard,Subarrays with K Different Integers,Medium,Sliding Window / Hash Maps
+Sliding Window - Hard,Minimum Window Substring,Hard,Sliding Window / Hash Maps / Two Pointers
+Sliding Window - Hard,Minimum Window Subsequence,Hard,Sliding Window / Two Pointers / DP
+Heaps - Learning,Heaps (Theory),Easy,Heap / Basic
+Heaps - Learning,Implement Min Heap,Medium,Heap / Basic
+Heaps - Learning,Check if array is min heap,Medium,Heap / Basic
+Heaps - Learning,Convert Min Heap to Max Heap,Medium,Heap / Basic
+Heaps - Medium,K-th Largest element,Medium,"HEAP PATTERN: Kth, K closest"
+Heaps - Medium,Kth smallest element,Medium,"HEAP PATTERN: Kth, K closest"
+Heaps - Medium,Sort K sorted array,Easy,HEAP PATTERN: heap as pointer
+Heaps - Medium,Merge K sorted Lists,Hard,HEAP PATTERN: heap as pointer / GREEDY+heap
+Heaps - Medium,Replace Elements by Their Rank,Easy,Heap / Sorting
+Heaps - Medium,Task Scheduler,Medium,HEAP PATTERN: GREEDY+heap / Hash Maps
+Heaps - Medium,Hand of Straights,Medium,HEAP PATTERN: GREEDY+heap / Hash Maps
+Heaps - Hard,Design Twitter,Medium,HEAP PATTERN: heap as pointer / Hash Maps
+Heaps - Hard,Minimum Cost to Connect Sticks,Medium,HEAP PATTERN: GREEDY+heap
+Heaps - Hard,Kth largest in stream,Hard,"HEAP PATTERN: Kth, K closest / 2 heaps"
+Heaps - Hard,Maximum Sum Combination,Hard,"HEAP PATTERN: Kth, K closest / 2 heaps"
+Heaps - Hard,Find Median from Data Stream,Hard,HEAP PATTERN: 2 heaps
+Heaps - Hard,Top K Frequent Elements,Medium,"HEAP PATTERN: Kth, K closest / Hash Maps"
+Greedy - Easy,Assign Cookies,Easy,Greedy / Two Pointers
+Greedy - Easy,Fractional Knapsack,Medium,Greedy
+Greedy - Easy,Lemonade Change,Easy,Greedy / Basic
+Greedy - Easy,Valid Parenthesis Checker,Hard,Greedy / Stack / Two Pointers
+Greedy - Medium/Hard,N meetings in one room,Medium,Greedy / Sorting
+Greedy - Medium/Hard,Jump Game - I,Easy,Greedy
+Greedy - Medium/Hard,Jump Game II,Medium,Greedy
+Greedy - Medium/Hard,Minimum platforms required,Medium,Greedy / Two Pointers / Heap
+Greedy - Medium/Hard,Job sequencing,Medium,Greedy / Sorting
+Greedy - Medium/Hard,Candy,Hard,Greedy / Two Pointers
+Greedy - Medium/Hard,Shortest Job First,Medium,Greedy / Heap
+Greedy - Medium/Hard,LRU Page Replacement,Medium,Greedy / Hash Maps
+Greedy - Medium/Hard,Insert Interval,Medium,Merge Intervals
+Greedy - Medium/Hard,Merge Intervals,Medium,Merge Intervals
+Greedy - Medium/Hard,Non-overlapping Intervals,Medium,Merge Intervals / Greedy
+Binary Trees - Traversals,Introduction to Trees,Easy,Tree Pattern: Basic
+Binary Trees - Traversals,Binary Tree Representation,Easy,Tree Pattern: Basic
+Binary Trees - Traversals,"Pre, Post, Inorder in one traversal",Easy,Tree Pattern: Traversal
+Binary Trees - Traversals,Preorder Traversal,Easy,Tree Pattern: Traversal
+Binary Trees - Traversals,Inorder Traversal,Easy,Tree Pattern: Traversal
+Binary Trees - Traversals,Postorder Traversal,Easy,Tree Pattern: Traversal
+Binary Trees - Traversals,Level Order Traversal,Easy,Tree Pattern: Traversal
+Binary Trees - Traversals,Iterative Preorder,Easy,Tree Pattern: Traversal / Stack
+Binary Trees - Traversals,Iterative Inorder,Easy,Tree Pattern: Traversal / Stack
+Binary Trees - Traversals,Post-order using 2 stack,Easy,Tree Pattern: Traversal / Stack
+Binary Trees - Traversals,Post-order using 1 stack,Easy,Tree Pattern: Traversal / Stack
+Binary Trees - Traversals,All traversals in one,Easy,Tree Pattern: Traversal / Stack
+Binary Trees - Medium,Maximum Depth in BT,Medium,Tree Pattern: Search / Recursion
+Binary Trees - Medium,Check for balanced binary tree,Medium,Tree Pattern: Search / Recursion
+Binary Trees - Medium,Diameter of Binary Tree,Easy,Tree Pattern: Search / Recursion
+Binary Trees - Medium,Maximum path sum,Medium,Tree Pattern: Path SUM / Recursion
+Binary Trees - Medium,Check if two trees are identical,Medium,Tree Pattern: Search / Recursion
+Binary Trees - Medium,Zig Zag or Spiral Traversal,Medium,Tree Pattern: Traversal / Queue
+Binary Trees - Medium,Boundary Traversal,Medium,Tree Pattern: Traversal
+Binary Trees - Medium,Vertical Order Traversal,Medium,Tree Pattern: Traversal / Hash Maps
+Binary Trees - Medium,Top View of BT,Medium,Tree Pattern: Traversal / Hash Maps
+Binary Trees - Medium,Bottom view of BT,Medium,Tree Pattern: Traversal / Hash Maps
+Binary Trees - Medium,Right/Left View of BT,Medium,Tree Pattern: Traversal / Queue
+Binary Trees - Medium,Symmetric Binary Tree,Medium,Tree Pattern: Mirror and Symmetry / Recursion
+Binary Trees - Hard,Print root to leaf path,Medium,Tree Pattern: Path SUM / Recursion
+Binary Trees - Hard,LCA in BT,Hard,Tree Pattern: Search / Recursion
+Binary Trees - Hard,Maximum Width of BT,Medium,Tree Pattern: Traversal / Queue
+Binary Trees - Hard,Children Sum Property,Medium,Tree Pattern: Search / Recursion
+Binary Trees - Hard,Print all nodes at distance K,Hard,Tree Pattern: Search / Recursion
+Binary Trees - Hard,Minimum time to burn BT from Node,Hard,Tree Pattern: Search / BFS / Graphs
+Binary Trees - Hard,Count total nodes in complete BT,Easy,Tree Pattern: Search / Binary Search
+Binary Trees - Hard,Requirements to construct unique BT,Medium,Tree Pattern: Construction
+Binary Trees - Hard,Construct BT from Preorder and Inorder,Hard,Tree Pattern: Construction / Recursion
+Binary Trees - Hard,Construct BT from Postorder and Inorder,Hard,Tree Pattern: Construction / Recursion
+Binary Trees - Hard,Serialize and De-serialize BT,Hard,Tree Pattern: Construction / Traversal
+Binary Trees - Hard,Morris Preorder Traversal,Hard,Tree Pattern: Traversal / In-place
+Binary Trees - Hard,Morris Inorder Traversal,Hard,Tree Pattern: Traversal / In-place
+Binary Trees - Hard,Flatten BT to Linked List,Medium,Tree Pattern: Traversal / In-place Reversal of a LinkedList
+BST - Concepts,Introduction to BST,Easy,Tree Pattern: Basic
+BST - Concepts,Search in BST,Easy,Tree Pattern: Search / Binary Search
+BST - Concepts,Find Min/Max in BST,Easy,Tree Pattern: Search
+BST - Problems,Floor and Ceil in BST,Easy,Tree Pattern: Search / Binary Search
+BST - Problems,Floor in BST,Easy,Tree Pattern: Search / Binary Search
+BST - Problems,Insert node in BST,Medium,Tree Pattern: Search / Recursion
+BST - Problems,Delete node in BST,Medium,Tree Pattern: Search / Recursion
+BST - Problems,Kth Smallest and Largest in BST,Medium,Tree Pattern: Search / Inorder / Heap
+BST - Problems,Check if tree is BST,Medium,Tree Pattern: Search / Recursion
+BST - Problems,LCA in BST,Medium,Tree Pattern: Search / Binary Search
+BST - Problems,Construct BST from preorder,Medium,Tree Pattern: Construction / Recursion
+BST - Problems,Inorder Successor/Predecessor,Medium,Tree Pattern: Search / Inorder
+BST - Problems,Merge 2 BSTs,Hard,Tree Pattern: Traversal / Two Pointers / Stack
+BST - Problems,Two Sum in BST,Hard,Tree Pattern: Search / Two Pointers / Hash Maps
+BST - Problems,Correct BST with two nodes swapped,Hard,Tree Pattern: Traversal / Inorder
+BST - Problems,Largest BST in Binary Tree,Hard,Tree Pattern: Search / Recursion / DP
+Graphs - Learning,Introduction to Graph,Easy,GRAPHS: Basic
+Graphs - Learning,Graph Representation C++,Easy,GRAPHS: Basic
+Graphs - Learning,Graph Representation Java,Easy,GRAPHS: Basic
+Graphs - Learning,Connected Components,Medium,GRAPHS: BFS/DFS
+Graphs - Learning,Traversal Techniques,Medium,GRAPHS: BFS/DFS
+Graphs - Learning,DFS,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Number of provinces,Medium,GRAPHS: BFS/DFS / Union-Find
+Graphs - BFS/DFS,Connected Components in Matrix,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Rotten Oranges,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Flood fill algorithm,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Cycle Detection in Undirected Graph (bfs),Hard,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Detect cycle in undirected graph,Hard,GRAPHS: BFS/DFS / Union-Find
+Graphs - BFS/DFS,Distance of nearest cell having 1,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Surrounded Regions,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Number of enclaves,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Word ladder I,Hard,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Word ladder II,Hard,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Number of islands,Medium,GRAPHS: BFS/DFS
+Graphs - BFS/DFS,Bipartite Graph (DFS),Hard,GRAPHS: BFS/DFS / Coloring
+Graphs - BFS/DFS,Cycle Detection in Directed Graph (DFS),Hard,GRAPHS: BFS/DFS / Topo Sort
+Graphs - Topo Sort,Topo Sort,Hard,GRAPHS: Topo Sort
+Graphs - Topo Sort,Kahn's algorithm,Hard,GRAPHS: Topo Sort
+Graphs - Topo Sort,Detect cycle in directed graph,Hard,GRAPHS: Topo Sort
+Graphs - Topo Sort,Course Schedule I,Hard,GRAPHS: Topo Sort
+Graphs - Topo Sort,Course Schedule II,Medium,GRAPHS: Topo Sort
+Graphs - Topo Sort,Find eventual safe states,Hard,GRAPHS: Topo Sort / DFS
+Graphs - Topo Sort,Alien Dictionary,Hard,GRAPHS: Topo Sort
+Graphs - Shortest Path,Shortest path in undirected graph (unit weights),Hard,GRAPHS: Shortest Path / BFS
+Graphs - Shortest Path,Shortest path in DAG,Hard,GRAPHS: Shortest Path / Topo Sort
+Graphs - Shortest Path,Dijkstra's Algorithm,Hard,GRAPHS: Shortest Path / Heap
+Graphs - Shortest Path,Why PQ in Dijkstra's,Hard,GRAPHS: Shortest Path / Heap
+Graphs - Shortest Path,Shortest Distance in Binary Maze,Hard,GRAPHS: Shortest Path / BFS
+Graphs - Shortest Path,Path with minimum effort,Hard,GRAPHS: Shortest Path / Dijkstra / Heap
+Graphs - Shortest Path,Cheapest flight within K stops,Hard,GRAPHS: Shortest Path / Bellman Ford / DP
+Graphs - Shortest Path,Network Delay Time,Medium,GRAPHS: Shortest Path / Dijkstra / Heap
+Graphs - Shortest Path,Number of ways to arrive at destination,Hard,GRAPHS: Shortest Path / Dijkstra / DP
+Graphs - Shortest Path,Minimum multiplications to reach end,Hard,GRAPHS: Shortest Path / BFS / 0-1 BFS
+Graphs - Shortest Path,Bellman Ford Algorithm,Hard,GRAPHS: Shortest Path
+Graphs - Shortest Path,Floyd Warshall,Hard,GRAPHS: Shortest Path / DP
+Graphs - Shortest Path,Find city with smallest neighbors,Hard,GRAPHS: Shortest Path / Floyd Warshall
+Graphs - MST/DSU,MST theory,Easy,GRAPHS: MST / Basic
+Graphs - MST/DSU,Prim's Algorithm,Hard,GRAPHS: MST / Heap
+Graphs - MST/DSU,Disjoint Set,Hard,GRAPHS: DSU / Union-Find
+Graphs - MST/DSU,Find MST weight,Hard,GRAPHS: MST / Kruskal / DSU
+Graphs - MST/DSU,Number of operations to make network connected,Hard,GRAPHS: DSU / Union-Find
+Graphs - MST/DSU,Most stones removed,Medium,GRAPHS: DSU / Union-Find
+Graphs - MST/DSU,Accounts merge,Hard,GRAPHS: DSU / Union-Find / Hash Maps
+Graphs - MST/DSU,Number of islands II,Hard,GRAPHS: DSU / Union-Find
+Graphs - MST/DSU,Making a large island,Hard,GRAPHS: DSU / Union-Find / BFS
+Graphs - MST/DSU,Swim in Rising Water,Medium,GRAPHS: Shortest Path / Heap / Binary Search
+Graphs - Other,Bridges in graph,Hard,GRAPHS: Tarjan / DFS
+Graphs - Other,Articulation point,Hard,GRAPHS: Tarjan / DFS
+Graphs - Other,Kosaraju's algorithm,Hard,GRAPHS: Strongly Connected / DFS
+DP - Introduction,Introduction to DP,Easy,DP (Dynamic Programming): Basic
+DP - 1D,Climbing stairs,Medium,DP (Dynamic Programming): 1D
+DP - 1D,Frog Jump,Medium,DP (Dynamic Programming): 1D
+DP - 1D,Frog jump with K distances,Medium,DP (Dynamic Programming): 1D
+DP - 1D,Maximum sum of non adjacent elements,Medium,DP (Dynamic Programming): 1D
+DP - 1D,House robber,Medium,DP (Dynamic Programming): 1D
+DP - Grids,Ninja's training,Medium,DP (Dynamic Programming): 2D/3D
+DP - Grids,Grid Unique Paths,Medium,DP (Dynamic Programming): 2D/3D
+DP - Grids,Unique paths II,Medium,DP (Dynamic Programming): 2D/3D
+DP - Grids,Minimum Falling Path Sum,Medium,DP (Dynamic Programming): 2D/3D
+DP - Grids,Triangle,Medium,DP (Dynamic Programming): 2D/3D
+DP - Grids,Ninja and his Friends,Medium,DP (Dynamic Programming): 2D/3D
+DP - Subsequences,Subset sum equal to target,Hard,DP (Dynamic Programming): Subsequences
+DP - Subsequences,Partition equal subset sum,Hard,DP (Dynamic Programming): Subsequences
+DP - Subsequences,Partition into two subsets with min absolute diff,Hard,DP (Dynamic Programming): Subsequences
+DP - Subsequences,Count subsets with sum K,Hard,DP (Dynamic Programming): Subsequences
+DP - Subsequences,Count partitions with given difference,Hard,DP (Dynamic Programming): Subsequences
+DP - Subsequences,Assign Cookies,Easy,DP (Dynamic Programming): Subsequences / Greedy
+DP - Subsequences,Minimum Coins,Hard,DP (Dynamic Programming): Subsequences / Unbounded Knapsack
+DP - Subsequences,Target sum,Hard,DP (Dynamic Programming): Subsequences
+DP - Subsequences,Coin Change 2,Hard,DP (Dynamic Programming): Subsequences / Unbounded Knapsack
+DP - Subsequences,Unbounded knapsack,Hard,DP (Dynamic Programming): Subsequences
+DP - Subsequences,Rod Cutting,Hard,DP (Dynamic Programming): Subsequences / Unbounded Knapsack
+DP - Strings,Longest common subsequence,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Print LCS,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Longest common substring,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Longest palindromic subsequence,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Minimum insertions to make palindrome,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Min insertions/deletions to convert A to B,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Shortest common supersequence,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Distinct subsequences,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Edit distance,Hard,DP (Dynamic Programming): Strings
+DP - Strings,Wildcard matching,Hard,DP (Dynamic Programming): Strings
+DP - Stocks,Best time to buy and sell stock,Medium,DP (Dynamic Programming): Stocks / Kadane
+DP - Stocks,Best time to buy and sell stock II,Medium,DP (Dynamic Programming): Stocks / Greedy
+DP - Stocks,Best time to buy and sell stock III,Medium,DP (Dynamic Programming): Stocks
+DP - Stocks,Best time to buy and sell stock IV,Medium,DP (Dynamic Programming): Stocks
+DP - Stocks,Best time with Cooldown,Medium,DP (Dynamic Programming): Stocks
+DP - Stocks,Best time with transaction fees,Medium,DP (Dynamic Programming): Stocks
+DP - LIS,Longest Increasing Subsequence,Medium,DP (Dynamic Programming): LIS / Binary Search
+DP - LIS,Print LIS,Medium,DP (Dynamic Programming): LIS / Binary Search
+DP - LIS,LIS (DP-43),Medium,DP (Dynamic Programming): LIS / Binary Search
+DP - LIS,Largest Divisible Subset,Medium,DP (Dynamic Programming): LIS
+DP - LIS,Longest String Chain,Medium,DP (Dynamic Programming): LIS / Hash Maps
+DP - LIS,Longest Bitonic Subsequence,Medium,DP (Dynamic Programming): LIS
+DP - LIS,Number of LIS,Medium,DP (Dynamic Programming): LIS
+DP - MCM/Partition,Matrix chain multiplication,Hard,DP (Dynamic Programming): MCM / Partition
+DP - MCM/Partition,MCM Bottom-Up,Hard,DP (Dynamic Programming): MCM / Partition
+DP - MCM/Partition,Minimum cost to cut stick,Hard,DP (Dynamic Programming): MCM / Partition
+DP - MCM/Partition,Burst balloons,Hard,DP (Dynamic Programming): MCM / Partition
+DP - MCM/Partition,Different Ways to Evaluate Boolean Expression,Medium,DP (Dynamic Programming): MCM / Partition / Recursion
+DP - MCM/Partition,Palindrome partitioning II,Hard,DP (Dynamic Programming): MCM / Partition
+DP - MCM/Partition,Partition Array for Maximum Sum,Medium,DP (Dynamic Programming): MCM / Partition
+DP - Squares,Maximum Rectangle Area with all 1s,Hard,DP (Dynamic Programming): Squares / Stack
+DP - Squares,Count Square Submatrices with All Ones,Easy,DP (Dynamic Programming): Squares
+Tries - Theory,Trie Implementation and Operations,Hard,Tries: Basic
+Tries - Problems,Trie Implementation and Advanced Operations,Hard,Tries: Advanced
+Tries - Problems,Longest Word with All Prefixes,Medium,Tries: Search / DFS
+Tries - Problems,Number of distinct substrings,Medium,Tries: Construction / Hash Maps
+Tries - Problems,Bit PreRequisites for TRIE,Easy,Tries: Basic / Bit Manipulation
+Tries - Problems,Maximum XOR of two numbers,Hard,Tries: Bit Manipulation / Search
+Tries - Problems,Maximum Xor with element from array,Hard,Tries: Bit Manipulation / Search
+Strings - Hard,Minimum bracket reversals to balanced,Hard,Stack / Greedy
+Strings - Hard,Count and say,Hard,Recursion and Backtracking / Basic
+Strings - Hard,Hashing In Strings Theory,Easy,Hash Maps / Basic
+Strings - Hard,Rabin Karp Algorithm,Hard,Hash Maps / Rolling Hash
+Strings - Hard,Z function,Hard,Two Pointers / String Matching
+Strings - Hard,KMP Algorithm or LPS array,Hard,Two Pointers / String Matching / DP
+Strings - Hard,Shortest Palindrome,Hard,Two Pointers / KMP / Recursion
+Strings - Hard,Longest happy prefix,Hard,KMP / Two Pointers / DP
+Strings - Hard,Count Palindromic Subsequences,Medium,DP (Dynamic Programming): Strings
