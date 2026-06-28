@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a2Z DSA Tracker — Progress Dashboard</title>
+  <meta name="description" content="Track your DSA progress through Striver's A2Z Sheet with interactive visualizations, 28 pattern cards, and searchable problem tables.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+</head>
+<body>
+
+  <!-- ─── Header ──────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-left">
+      <h1>🎯 a2Z DSA Tracker</h1>
+      <span class="header-badge">Striver's A2Z Sheet</span>
+    </div>
+    <div class="header-right">
+      <span class="sync-badge" id="syncBadge"></span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ─── Stats Overview ────────────────────────────── -->
+    <section class="stats-overview" id="statsOverview">
+      <!-- Hero: Progress Ring -->
+      <div class="stat-card glass hero animate-in delay-1">
+        <div class="progress-ring-wrap">
+          <svg width="120" height="120" viewBox="0 0 120 120">
+            <defs>
+              <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6366f1"/>
+                <stop offset="50%" stop-color="#8b5cf6"/>
+                <stop offset="100%" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+            <circle class="progress-ring-bg" cx="60" cy="60" r="52"/>
+            <circle class="progress-ring-fill" id="progressRing" cx="60" cy="60" r="52"
+                    stroke-dasharray="326.73" stroke-dashoffset="326.73"/>
+          </svg>
+          <div class="ring-center">
+            <span class="ring-pct" id="ringPct">0%</span>
+            <span class="ring-label">Complete</span>
+          </div>
+        </div>
+        <div class="stat-info">
+          <h2 id="solvedCount">0</h2>
+          <p>Problems Solved</p>
+          <span class="stat-sub" id="totalCount">out of 0</span>
+        </div>
+      </div>
+
+      <!-- Difficulty Breakdown -->
+      <div class="stat-card glass animate-in delay-2">
+        <h3>Difficulty Split</h3>
+        <div id="diffBars"></div>
+      </div>
+
+      <!-- Topics Covered -->
+      <div class="stat-card glass animate-in delay-3">
+        <h3>Topics Covered</h3>
+        <div class="big-number" id="topicCount">0</div>
+        <div class="big-number-sub" id="topicSub">of 17 topics</div>
+      </div>
+
+      <!-- Patterns Active -->
+      <div class="stat-card glass animate-in delay-4">
+        <h3>Patterns Active</h3>
+        <div class="big-number" id="patternCount">0</div>
+        <div class="big-number-sub">of 28 patterns</div>
+      </div>
+    </section>
+
+    <!-- ─── Commit Heatmap ────────────────────────────── -->
+    <section class="section animate-in" id="heatmapSection">
+      <h2 class="section-title">📅 Activity Heatmap</h2>
+      <div class="glass" style="padding: 20px 24px;">
+        <div class="heatmap-wrap" id="heatmapWrap"></div>
+        <div class="heatmap-legend">
+          <span>Less</span>
+          <div class="heatmap-day"></div>
+          <div class="heatmap-day l1"></div>
+          <div class="heatmap-day l2"></div>
+          <div class="heatmap-day l3"></div>
+          <div class="heatmap-day l4"></div>
+          <span>More</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Topic Progress ────────────────────────────── -->
+    <section class="section animate-in" id="topicSection">
+      <h2 class="section-title">📚 Topic Progress</h2>
+      <div class="topic-grid" id="topicGrid"></div>
+    </section>
+
+    <!-- ─── 28 DSA Patterns ───────────────────────────── -->
+    <section class="section animate-in" id="patternSection">
+      <h2 class="section-title">🧩 28 DSA Patterns</h2>
+      <div class="pattern-grid" id="patternGrid"></div>
+    </section>
+
+    <!-- ─── Problem Table ─────────────────────────────── -->
+    <section class="section animate-in" id="problemSection">
+      <h2 class="section-title">📋 All Problems</h2>
+      <div class="filters">
+        <input type="text" id="searchInput" placeholder="Search problems..." class="search-input">
+        <select id="diffFilter" class="filter-select">
+          <option value="">All Difficulties</option>
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+        </select>
+        <select id="patternFilter" class="filter-select">
+          <option value="">All Patterns</option>
+        </select>
+        <select id="topicFilter" class="filter-select">
+          <option value="">All Topics</option>
+        </select>
+        <select id="statusFilter" class="filter-select">
+          <option value="">All Status</option>
+          <option value="solved">✅ Solved</option>
+          <option value="unsolved">⬜ Unsolved</option>
+        </select>
+      </div>
+      <div class="glass">
+        <div class="table-wrap">
+          <table class="problem-table" id="problemTable">
+            <thead>
+              <tr>
+                <th data-sort="name">Problem ↕</th>
+                <th data-sort="topic">Topic ↕</th>
+                <th data-sort="difficulty">Difficulty ↕</th>
+                <th>Pattern</th>
+                <th data-sort="solved">Status ↕</th>
+              </tr>
+            </thead>
+            <tbody id="problemBody"></tbody>
+          </table>
+        </div>
+        <div class="table-footer">
+          <span id="tableInfo"></span>
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── Pattern Detail Modal ────────────────────────── -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle"></h3>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-when" id="modalWhen"></div>
+      <ul class="modal-problems" id="modalProblems"></ul>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
