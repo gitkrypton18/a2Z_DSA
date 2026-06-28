@@ -50,6 +50,7 @@ DSA Repository
 | [1539-kth-missing-positive-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1552-magnetic-force-between-two-balls) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1822-sign-of-the-product-of-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1822-sign-of-the-product-of-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -107,6 +108,7 @@ DSA Repository
 | [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
 | [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
 | [1486-xor-operation-in-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1486-xor-operation-in-an-array) |
+| [1822-sign-of-the-product-of-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1822-sign-of-the-product-of-an-array) |
 ## String
 |  |
 | ------- |
