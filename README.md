@@ -33,6 +33,7 @@ DSA Repository
 | [0162-find-peak-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -42,6 +43,7 @@ DSA Repository
 | [0128-longest-consecutive-sequence](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0205-isomorphic-strings) |
+| [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -99,6 +101,7 @@ DSA Repository
 | [0075-sort-colors](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -129,4 +132,5 @@ DSA Repository
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
