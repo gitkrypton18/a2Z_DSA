@@ -43,6 +43,7 @@ DSA Repository
 | [0560-subarray-sum-equals-k](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0704-binary-search) |
 | [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
+| [0977-squares-of-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -119,6 +120,7 @@ DSA Repository
 | [0125-valid-palindrome](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0283-move-zeroes) |
+| [0977-squares-of-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Sorting
 |  |
 | ------- |
@@ -132,6 +134,7 @@ DSA Repository
 | [0242-valid-anagram](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
+| [0977-squares-of-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Matrix
 |  |
 | ------- |
