@@ -41,6 +41,7 @@ DSA Repository
 | [0073-set-matrix-zeroes](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0205-isomorphic-strings) |
 ## Binary Search
 |  |
 | ------- |
@@ -73,6 +74,7 @@ DSA Repository
 | [0012-integer-to-roman](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0012-integer-to-roman) |
 | [0014-longest-common-prefix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0125-valid-palindrome) |
+| [0205-isomorphic-strings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0205-isomorphic-strings) |
 ## Trie
 |  |
 | ------- |
