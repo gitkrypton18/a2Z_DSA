@@ -111,6 +111,7 @@ DSA Repository
 | [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
 | [1486-xor-operation-in-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1486-xor-operation-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1822-sign-of-the-product-of-an-array) |
+| [1903-largest-odd-number-in-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1903-largest-odd-number-in-string) |
 ## String
 |  |
 | ------- |
@@ -124,6 +125,7 @@ DSA Repository
 | [1021-remove-outermost-parentheses](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [1903-largest-odd-number-in-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1903-largest-odd-number-in-string) |
 ## Trie
 |  |
 | ------- |
@@ -209,6 +211,7 @@ DSA Repository
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0410-split-array-largest-sum) |
+| [1903-largest-odd-number-in-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1903-largest-odd-number-in-string) |
 ## Prefix Sum
 |  |
 | ------- |
