@@ -37,6 +37,7 @@ DSA Repository
 | [0240-search-a-2d-matrix-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0410-split-array-largest-sum) |
+| [0485-max-consecutive-ones](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0485-max-consecutive-ones) |
 ## Hash Table
 |  |
 | ------- |
