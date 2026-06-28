@@ -41,6 +41,7 @@ DSA Repository
 | [0493-reverse-pairs](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0704-binary-search](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -69,6 +70,7 @@ DSA Repository
 | [0410-split-array-largest-sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0704-binary-search](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0704-binary-search) |
 ## Divide and Conquer
 |  |
 | ------- |
