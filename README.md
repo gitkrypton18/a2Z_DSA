@@ -20,4 +20,8 @@ DSA Repository
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0004-median-of-two-sorted-arrays) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
