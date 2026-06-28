@@ -52,6 +52,7 @@ DSA Repository
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1901-find-a-peak-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1901-find-a-peak-element-ii) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -143,6 +144,7 @@ DSA Repository
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0283-move-zeroes) |
 | [0977-squares-of-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0977-squares-of-a-sorted-array) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
 | ------- |
@@ -181,6 +183,7 @@ DSA Repository
 | ------- |
 | [0054-spiral-matrix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0054-spiral-matrix) |
 | [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Union-Find
 |  |
 | ------- |
