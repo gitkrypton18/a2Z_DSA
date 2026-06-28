@@ -39,6 +39,7 @@ DSA Repository
 | [0410-split-array-largest-sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0540-single-element-in-a-sorted-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -65,6 +66,7 @@ DSA Repository
 | [0240-search-a-2d-matrix-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0540-single-element-in-a-sorted-array) |
 ## Divide and Conquer
 |  |
 | ------- |
