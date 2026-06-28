@@ -26,12 +26,14 @@ DSA Repository
 | [0088-merge-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0128-longest-consecutive-sequence) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0012-integer-to-roman) |
 | [0073-set-matrix-zeroes](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0128-longest-consecutive-sequence) |
 ## Binary Search
 |  |
 | ------- |
@@ -99,4 +101,8 @@ DSA Repository
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0054-spiral-matrix) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
