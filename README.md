@@ -10,6 +10,7 @@ DSA Repository
 | [0004-median-of-two-sorted-arrays](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0018-4sum) |
 ## Hash Table
 |  |
 | ------- |
@@ -42,8 +43,10 @@ DSA Repository
 |  |
 | ------- |
 | [0015-3sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0018-4sum) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0018-4sum) |
 <!---LeetCode Topics End-->
