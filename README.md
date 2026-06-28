@@ -100,6 +100,7 @@ DSA Repository
 | [0205-isomorphic-strings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0796-rotate-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0796-rotate-string) |
 ## Trie
 |  |
 | ------- |
@@ -211,4 +212,8 @@ DSA Repository
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
