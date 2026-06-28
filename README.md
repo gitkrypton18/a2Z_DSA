@@ -35,6 +35,7 @@ DSA Repository
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [0283-move-zeroes](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0283-move-zeroes) |
 ## Hash Table
 |  |
 | ------- |
@@ -99,6 +100,7 @@ DSA Repository
 | [0088-merge-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0283-move-zeroes) |
 ## Sorting
 |  |
 | ------- |
