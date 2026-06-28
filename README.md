@@ -14,6 +14,7 @@ DSA Repository
 | [0026-remove-duplicates-from-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0035-search-insert-position](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0035-search-insert-position) |
 ## Hash Table
 |  |
 | ------- |
@@ -24,6 +25,7 @@ DSA Repository
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0035-search-insert-position](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0035-search-insert-position) |
 ## Divide and Conquer
 |  |
 | ------- |
