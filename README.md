@@ -106,6 +106,7 @@ DSA Repository
 | [0242-valid-anagram](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0796-rotate-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0796-rotate-string) |
+| [1021-remove-outermost-parentheses](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1021-remove-outermost-parentheses) |
 ## Trie
 |  |
 | ------- |
@@ -235,4 +236,8 @@ DSA Repository
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
+## Stack
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1021-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
