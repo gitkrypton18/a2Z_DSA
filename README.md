@@ -54,6 +54,7 @@ DSA Repository
 | [1901-find-a-peak-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1901-find-a-peak-element-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2965-find-missing-and-repeated-values](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2965-find-missing-and-repeated-values) |
+| [2974-minimum-number-game](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2974-minimum-number-game) |
 ## Hash Table
 |  |
 | ------- |
@@ -163,6 +164,7 @@ DSA Repository
 | [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1552-magnetic-force-between-two-balls) |
+| [2974-minimum-number-game](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2974-minimum-number-game) |
 ## Matrix
 |  |
 | ------- |
@@ -188,6 +190,7 @@ DSA Repository
 | [0054-spiral-matrix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0054-spiral-matrix) |
 | [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2974-minimum-number-game](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2974-minimum-number-game) |
 ## Union-Find
 |  |
 | ------- |
@@ -229,6 +232,7 @@ DSA Repository
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0912-sort-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0912-sort-an-array) |
+| [2974-minimum-number-game](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2974-minimum-number-game) |
 ## Bucket Sort
 |  |
 | ------- |
