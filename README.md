@@ -84,6 +84,7 @@ DSA Repository
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
+| [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
 ## String
 |  |
 | ------- |
@@ -137,6 +138,7 @@ DSA Repository
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0410-split-array-largest-sum) |
+| [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
 ## Simulation
 |  |
 | ------- |
@@ -161,6 +163,7 @@ DSA Repository
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
+| [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
 ## Number Theory
 |  |
 | ------- |
@@ -197,4 +200,8 @@ DSA Repository
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0493-reverse-pairs) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
