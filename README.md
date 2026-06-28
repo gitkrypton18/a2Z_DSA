@@ -53,6 +53,7 @@ DSA Repository
 | [1822-sign-of-the-product-of-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1901-find-a-peak-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1901-find-a-peak-element-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2965-find-missing-and-repeated-values](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
 | ------- |
@@ -67,6 +68,7 @@ DSA Repository
 | [0451-sort-characters-by-frequency](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2965-find-missing-and-repeated-values](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
 | ------- |
@@ -113,6 +115,7 @@ DSA Repository
 | [1486-xor-operation-in-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1486-xor-operation-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1903-largest-odd-number-in-string](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1903-largest-odd-number-in-string) |
+| [2965-find-missing-and-repeated-values](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## String
 |  |
 | ------- |
@@ -169,6 +172,7 @@ DSA Repository
 | [0074-search-a-2d-matrix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [1901-find-a-peak-element-ii](https://github.com/gitkrypton18/a2Z_DSA/tree/master/1901-find-a-peak-element-ii) |
+| [2965-find-missing-and-repeated-values](https://github.com/gitkrypton18/a2Z_DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Dynamic Programming
 |  |
 | ------- |
