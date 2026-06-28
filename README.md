@@ -75,6 +75,7 @@ DSA Repository
 | [0069-sqrtx](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
+| [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
 ## String
 |  |
 | ------- |
@@ -128,6 +129,7 @@ DSA Repository
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0054-spiral-matrix) |
+| [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
 ## Union-Find
 |  |
 | ------- |
@@ -146,4 +148,8 @@ DSA Repository
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0231-power-of-two) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
