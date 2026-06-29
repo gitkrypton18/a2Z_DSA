@@ -1,6 +1,3 @@
-// Doubly Linked List Master Notebook (starter)
-// Based on the user's preferred coding style.
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,26 +9,25 @@ class Node
 {
 public:
     int data;
-    Node *next;
-    Node *back;
+    Node *next, *back;
 
-    Node(int data1, Node *next1, Node *back1)
+    Node(int val)
     {
-        data = data1;
-        next = next1;
-        back = back1;
-    }
-
-    Node(int data1)
-    {
-        data = data1;
+        data = val;
         next = nullptr;
         back = nullptr;
+    }
+
+    Node(int val, Node *next1, Node *back1)
+    {
+        data = val;
+        next = next1;
+        back = back1;
     }
 };
 
 //=====================================================
-//              ARRAY -> DOUBLY LL
+//              ARRAY -> DLL
 //=====================================================
 
 Node *arrayToDLL(vector<int> &arr)
@@ -42,7 +38,7 @@ Node *arrayToDLL(vector<int> &arr)
     Node *head = new Node(arr[0]);
     Node *prev = head;
 
-    for (int i = 1; i < arr.size(); i++)
+    for (int i = 1; i < (int)arr.size(); i++)
     {
         Node *temp = new Node(arr[i], nullptr, prev);
         prev->next = temp;
@@ -55,20 +51,14 @@ Node *arrayToDLL(vector<int> &arr)
 //                  TRAVERSAL
 //=====================================================
 
-void traverseDLL(Node *head)
-{
-    Node *temp = head;
-    while (temp != nullptr)
-    {
-        cout << temp->data << " ";
-        temp = temp->next;
-    }
-    cout << endl;
-}
-
 void printDLL(Node *head)
 {
-    traverseDLL(head);
+    while (head)
+    {
+        cout << head->data << " ";
+        head = head->next;
+    }
+    cout << endl;
 }
 
 //=====================================================
@@ -119,8 +109,8 @@ Node *deleteHead(Node *head)
     Node *temp = head;
     head = head->next;
     head->back = nullptr;
-    temp->next = nullptr;
     delete temp;
+
     return head;
 }
 
@@ -143,15 +133,15 @@ Node *deleteTail(Node *head)
     while (tail->next)
         tail = tail->next;
 
-    Node *newTail = tail->back;
-    newTail->next = nullptr;
-    tail->back = nullptr;
+    Node *prev = tail->back;
+    prev->next = nullptr;
     delete tail;
+
     return head;
 }
 
 //=====================================================
-//          DELETE KTH NODE
+//              DELETE KTH
 //=====================================================
 
 Node *deleteKth(Node *head, int k)
@@ -159,40 +149,36 @@ Node *deleteKth(Node *head, int k)
     if (head == nullptr)
         return nullptr;
 
-    Node *kNode = head;
+    Node *temp = head;
     int cnt = 1;
 
-    while (kNode && cnt < k)
+    while (temp && cnt < k)
     {
-        kNode = kNode->next;
+        temp = temp->next;
         cnt++;
     }
 
-    if (kNode == nullptr)
+    if (temp == nullptr)
         return head;
 
-    Node *prev = kNode->back;
-    Node *front = kNode->next;
+    Node *prev = temp->back;
+    Node *front = temp->next;
 
     if (prev == nullptr && front == nullptr)
     {
-        delete kNode;
+        delete temp;
         return nullptr;
     }
 
     if (prev == nullptr)
         return deleteHead(head);
-
     if (front == nullptr)
         return deleteTail(head);
 
     prev->next = front;
     front->back = prev;
 
-    kNode->next = nullptr;
-    kNode->back = nullptr;
-    delete kNode;
-
+    delete temp;
     return head;
 }
 
@@ -214,14 +200,16 @@ Node *deleteValue(Node *head, int value)
     if (temp == nullptr)
         return head;
 
-    if (temp->back == nullptr)
-        return deleteHead(head);
+    Node *prev = temp->back;
+    Node *front = temp->next;
 
-    if (temp->next == nullptr)
+    if (prev == nullptr)
+        return deleteHead(head);
+    if (front == nullptr)
         return deleteTail(head);
 
-    temp->back->next = temp->next;
-    temp->next->back = temp->back;
+    prev->next = front;
+    front->back = prev;
 
     delete temp;
     return head;
@@ -273,7 +261,6 @@ Node *insertTail(Node *head, int value)
         return newNode;
 
     Node *temp = head;
-
     while (temp->next)
         temp = temp->next;
 
@@ -284,7 +271,7 @@ Node *insertTail(Node *head, int value)
 }
 
 //=====================================================
-//          INSERT AT Kth POSITION
+//              INSERT KTH
 //=====================================================
 
 Node *insertKth(Node *head, int value, int k)
@@ -295,12 +282,10 @@ Node *insertKth(Node *head, int value, int k)
     Node *temp = head;
     int cnt = 1;
 
-    while (temp != nullptr)
+    while (temp && cnt < k)
     {
-        if (cnt == k)
-            break;
-        cnt++;
         temp = temp->next;
+        cnt++;
     }
 
     if (temp == nullptr)
@@ -313,15 +298,14 @@ Node *insertKth(Node *head, int value, int k)
     Node *prev = temp->back;
     Node *newNode = new Node(value, temp, prev);
 
-    if (prev)
-        prev->next = newNode;
+    prev->next = newNode;
     temp->back = newNode;
 
     return head;
 }
 
 //=====================================================
-//      INSERT BEFORE GIVEN NODE
+//          INSERT BEFORE GIVEN NODE
 //=====================================================
 
 void insertBeforeNode(Node *node, int value)
@@ -338,12 +322,35 @@ void insertBeforeNode(Node *node, int value)
 }
 
 //=====================================================
-//                      MAIN
+//              REVERSE DLL
+//=====================================================
+
+Node *reverseDLL(Node *head)
+{
+    if (head == nullptr || head->next == nullptr)
+        return head;
+
+    Node *current = head;
+    Node *last = nullptr;
+
+    while (current)
+    {
+        last = current;
+        swap(current->next, current->back);
+        current = current->back;
+    }
+
+    return last;
+}
+
+//=====================================================
+//                  MAIN
 //=====================================================
 
 int main()
 {
-    vector<int> arr = {2, 5, 20, 44, 65, 88, 7, 8, 7};
+
+    vector<int> arr = {2, 5, 20, 44, 65, 88, 7, 8};
 
     Node *head = arrayToDLL(arr);
 
@@ -366,21 +373,23 @@ int main()
     head = deleteValue(head, 65);
     printDLL(head);
 
-    cout << "\nInsert Head (100)\n";
     head = insertHead(head, 100);
     printDLL(head);
 
-    cout << "\nInsert Tail (500)\n";
     head = insertTail(head, 500);
     printDLL(head);
 
-    cout << "\nInsert 300 at Position 3\n";
     head = insertKth(head, 300, 3);
     printDLL(head);
 
-    cout << "\nInsert 50 Before 2nd Node (which is head->next)\n";
     if (head && head->next)
         insertBeforeNode(head->next, 50);
+
+    printDLL(head);
+
+    head = reverseDLL(head);
+
+    cout << "Reversed DLL : ";
     printDLL(head);
 
     return 0;
