@@ -401,3 +401,10 @@ a2Z_DSA/
 *Keep grinding. Every problem makes you stronger.* 💪
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0237-delete-node-in-a-linked-list) |
+<!---LeetCode Topics End-->
