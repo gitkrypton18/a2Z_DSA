@@ -406,5 +406,10 @@ a2Z_DSA/
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0237-delete-node-in-a-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/gitkrypton18/a2Z_DSA/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
