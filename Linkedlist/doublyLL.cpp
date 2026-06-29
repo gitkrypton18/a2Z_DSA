@@ -284,6 +284,60 @@ Node *insertTail(Node *head, int value)
 }
 
 //=====================================================
+//          INSERT AT Kth POSITION
+//=====================================================
+
+Node *insertKth(Node *head, int value, int k)
+{
+    if (k == 1)
+        return insertHead(head, value);
+
+    Node *temp = head;
+    int cnt = 1;
+
+    while (temp != nullptr)
+    {
+        if (cnt == k)
+            break;
+        cnt++;
+        temp = temp->next;
+    }
+
+    if (temp == nullptr)
+    {
+        if (cnt == k)
+            return insertTail(head, value);
+        return head;
+    }
+
+    Node *prev = temp->back;
+    Node *newNode = new Node(value, temp, prev);
+
+    if (prev)
+        prev->next = newNode;
+    temp->back = newNode;
+
+    return head;
+}
+
+//=====================================================
+//      INSERT BEFORE GIVEN NODE
+//=====================================================
+
+void insertBeforeNode(Node *node, int value)
+{
+    if (node == nullptr)
+        return;
+
+    Node *prev = node->back;
+    Node *newNode = new Node(value, node, prev);
+
+    node->back = newNode;
+    if (prev)
+        prev->next = newNode;
+}
+
+//=====================================================
 //                      MAIN
 //=====================================================
 
@@ -312,10 +366,21 @@ int main()
     head = deleteValue(head, 65);
     printDLL(head);
 
+    cout << "\nInsert Head (100)\n";
     head = insertHead(head, 100);
     printDLL(head);
 
+    cout << "\nInsert Tail (500)\n";
     head = insertTail(head, 500);
+    printDLL(head);
+
+    cout << "\nInsert 300 at Position 3\n";
+    head = insertKth(head, 300, 3);
+    printDLL(head);
+
+    cout << "\nInsert 50 Before 2nd Node (which is head->next)\n";
+    if (head && head->next)
+        insertBeforeNode(head->next, 50);
     printDLL(head);
 
     return 0;
